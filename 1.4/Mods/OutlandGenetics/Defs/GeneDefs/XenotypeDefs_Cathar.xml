@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Cathar</defName>
+		<label>cathar</label>
+		<description>The Cathar are a species of feline, bipedal humanoids native to Cathar, a planet of savannas and rough uplands. They are known for their loyalty, passion, and temper. Quick and powerful, they are considered great warriors and dedicated, efficient predators.</description>
+		<descriptionShort>The Cathar are a species of feline, bipedal humanoids native to Cathar, a planet of savannas and rough uplands. They are known for their loyalty, passion, and temper. Quick and powerful, they are considered great warriors and dedicated, efficient predators.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Cathar</iconPath>
+		<genes>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>Outland_Skin_Auburn</li>
+			<li>Outland_Skin_Burgundy</li>
+			<li>Outland_Skin_BrownSubtle</li>
+			<li>Outland_Skin_DarkBrown</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SlateGray</li>
+			<li>Outland_HairColor_PastelOrange</li>
+			<li>Outland_HairColor_DarkRed</li>
+			<li>Hair_SandyBlonde</li>
+			<li>Hair_LightOrange</li>
+			<li>Hair_DarkBrown</li>
+			<li>OuterRim_CatharHead</li>
+			<li>Outland_Eye_Orange</li>
+			<li>Outland_Eye_Green</li>
+			<li>Outland_Eye_Yellow</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Cathar</defName>
+		<label>cathar</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Cathar>999</OuterRim_Cathar>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_CatharTribal</defName>
+		<label>tribal cathar</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Cathar>999</OuterRim_Cathar>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_CatharHead</defName>
+		<label>cathar head</label>
+		<description>Carriers of this gene have the Cathar racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_CatharHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Cathar_MaleNormal</li>
+			<li>OuterRim_Cathar_FemaleNormal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>cathar</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Cathar_MaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Cathar/Male_Head</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_CatharHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Cathar_FemaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Cathar/Female_Head</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_CatharHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Ewok</defName>
+		<label>ewok</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Ewok</iconPath>
+		<genes>
+			<li>Hair_SandyBlonde</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>Furskin</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Outland_Ears_Teddy</li>
+			<li>Outland_Nose_Leathery</li>
+			<li>NakedSpeed</li>
+			<li>Aggression_Aggressive</li>
+			<li>Outland_BodyScale_Tiny</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Ewok</defName>
+		<label>ewok</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Ewok>999</OuterRim_Ewok>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_EwokTribal</defName>
+		<label>tribal ewok</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Ewok>999</OuterRim_Ewok>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

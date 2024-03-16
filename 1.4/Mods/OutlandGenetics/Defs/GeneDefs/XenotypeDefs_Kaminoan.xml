@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Kaminoan</defName>
+		<label>kaminoan</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Kaminoan</iconPath>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Skin_SheerWhite</li>
+			<li>Body_Thin</li>
+			<!-- <li>Outland_BodyScale_Slender</li> -->
+			<li>OuterRim_KaminoanHead</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Kaminoan</defName>
+		<label>kaminoan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Kaminoan>999</OuterRim_Kaminoan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_KaminoanTribal</defName>
+		<label>tribal kaminoan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Kaminoan>999</OuterRim_Kaminoan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_KaminoanHead</defName>
+		<label>kaminoan head</label>
+		<description>Carriers of this gene have the Kaminoan racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_KaminoanHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Kaminoan_MaleNormal</li>
+			<li>OuterRim_Kaminoan_FemaleNormal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>kaminoan</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Kaminoan_MaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Kaminoan/Male_Normal</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_KaminoanHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Kaminoan_FemaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Kaminoan/Female_Normal</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_KaminoanHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_IshiTib</defName>
+		<label>ishi tib</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_IshiTib</iconPath>
+		<genes>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_IshiTib</defName>
+		<label>ishi tib</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_IshiTib>999</OuterRim_IshiTib>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_IshiTibTribal</defName>
+		<label>tribal ishi tib</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_IshiTib>999</OuterRim_IshiTib>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

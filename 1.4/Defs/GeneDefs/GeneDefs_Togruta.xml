@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Togruta</defName>
+		<label>togruta</label>
+		<description>Togruta are a humanoid species from the planet Shili, they have colorful skin tones with white markings and large horns with fleshy tails coming down from them known as montrals. Their colorful pigments are a helpful camouflage from predators on their homeworld.</description>
+		<descriptionShort>Togruta are a humanoid species from the planet Shili, they have colorful skin tones with white markings and large horns with fleshy tails coming down from them known as montrals.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Togruta</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Orange</li>
+			<li>Skin_Green</li>
+			<li>Skin_Blue</li>
+			<li>Skin_Purple</li>
+			<li>Hair_LightTeal</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_BrightRed</li>
+			<li>Hair_BaldOnly</li>
+			<li>Hair_Grayless</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_TogrutaHead</li>
+			<li>OuterRim_TogrutaMontrals</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Togruta</defName>
+		<label>togruta</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Togruta>999</OuterRim_Togruta>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_TogrutaTribal</defName>
+		<label>tribal togruta</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Togruta>999</OuterRim_Togruta>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_TogrutaHead</defName>
+		<label>togruta head</label>
+		<description>Carriers of this gene have the Togruta racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_TogrutaHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Togruta_Male0</li>
+			<li>OuterRim_Togruta_Male1</li>
+			<li>OuterRim_Togruta_Male2</li>
+			<li>OuterRim_Togruta_Male3</li>
+			<li>OuterRim_Togruta_Female0</li>
+			<li>OuterRim_Togruta_Female1</li>
+			<li>OuterRim_Togruta_Female2</li>
+			<li>OuterRim_Togruta_Female3</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>togruta</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef Name="TogrutaHeadBase" ParentName="AverageBase" Abstract="True">
+		<requiredGenes>
+			<li>OuterRim_TogrutaHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Male0</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Male_Togruta0</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Male1</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Male_Togruta1</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Male2</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Male_Togruta2</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Male3</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Male_Togruta3</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Female0</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Female_Togruta0</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Female1</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Female_Togruta1</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Female2</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Female_Togruta2</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="TogrutaHeadBase">
+		<defName>OuterRim_Togruta_Female3</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Togruta/Female_Togruta3</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadboneHornBase">
+		<defName>OuterRim_TogrutaMontrals</defName>
+		<label>togruta montrals</label>
+		<description>Carriers of this gene grow large hollow horns that cover the majority of the head, with soft fleshy tails extending below the head.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_Montrals</iconPath>
+		<displayOrderInCategory>9500</displayOrderInCategory>
+		<graphicData>
+			<drawOffsetNorth>(0, 0.1, 0)</drawOffsetNorth>
+			<graphicPath>OuterRim/Genes/Headbone/Montrals</graphicPath>
+			<colorType>Hair</colorType>
+			<layer>PostTattoo</layer>
+		</graphicData>
+	</GeneDef>
+	
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Pyke</defName>
+		<label>pyke</label>
+		<description>Pykes are a species of humanoids from the planet Oba Diah, they're distinguished by their unsettlingly large heads and undersized faces. A criminal organisation in the galaxy known as the Pyke Syndicate is exclusively composed of Pykes, making it a common stereotype to assume that a Pyke can get you some spice.</description>
+		<descriptionShort>Pykes are a species of humanoids from the planet Oba Diah, they're distinguished by their unsettlingly large heads and undersized faces.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Pyke</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_Skin_BlueSky</li>
+			<li>Outland_Skin_GreenSwamp</li>
+			<li>Outland_Skin_Cream</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_PykeHead</li>
+			<li>Outland_Blood_Green</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Pyke</defName>
+		<label>pyke</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Pyke>999</OuterRim_Pyke>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_PykeTribal</defName>
+		<label>tribal pyke</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Pyke>999</OuterRim_Pyke>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_PykeHead</defName>
+		<label>pyke head</label>
+		<description>Carriers of this gene have the Pyke racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_PykeHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Pyke_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>pyke</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Pyke_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Pyke/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_PykeHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

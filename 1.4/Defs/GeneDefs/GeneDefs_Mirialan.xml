@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- 
+		TODO Overhaul
+		- Use tattoos to give them facial markings instead of head type.
+	-->
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Mirialan</defName>
+		<label>mirialan</label>
+		<description>Mirialans are a near-human species from the planet Mirial. They typically have green or purple skin tones, with geometric markings symbolizing personal achievements. Mirialans do not really differ from humans beyond that.</description>
+		<descriptionShort>Mirialans are a near-human species from the planet Mirial.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Mirialan</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_MidBlack</li>
+			<li>Skin_Green</li>
+			<li>Skin_Purple</li>
+			<li>OuterRim_MirialanHead</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Mirialan</defName>
+		<label>mirialan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Mirialan>999</OuterRim_Mirialan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_MirialanTribal</defName>
+		<label>tribal mirialan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Mirialan>999</OuterRim_Mirialan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_MirialanHead</defName>
+		<label>mirialan head</label>
+		<description>Carriers of this gene have the Mirialan racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_MirialanHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Mirialan_Male0</li>
+			<li>OuterRim_Mirialan_Male1</li>
+			<li>OuterRim_Mirialan_Male2</li>
+			<li>OuterRim_Mirialan_Female0</li>
+			<li>OuterRim_Mirialan_Female1</li>
+			<li>OuterRim_Mirialan_Female2</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>mirialan</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef Name="MirialanHeadBase" ParentName="AverageBase" Abstract="True">
+		<requiredGenes>
+			<li>OuterRim_MirialanHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="MirialanHeadBase">
+		<defName>OuterRim_Mirialan_Male0</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Mirialan/Male_Mirialan0</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="MirialanHeadBase">
+		<defName>OuterRim_Mirialan_Male1</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Mirialan/Male_Mirialan1</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="MirialanHeadBase">
+		<defName>OuterRim_Mirialan_Male2</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Mirialan/Male_Mirialan2</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="MirialanHeadBase">
+		<defName>OuterRim_Mirialan_Female0</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Mirialan/Female_Mirialan0</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="MirialanHeadBase">
+		<defName>OuterRim_Mirialan_Female1</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Mirialan/Female_Mirialan1</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="MirialanHeadBase">
+		<defName>OuterRim_Mirialan_Female2</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Mirialan/Female_Mirialan2</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	
+</Defs>

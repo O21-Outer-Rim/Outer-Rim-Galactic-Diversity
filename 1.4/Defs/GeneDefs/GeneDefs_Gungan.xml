@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Gungan</defName>
+		<label>gungan</label>
+		<description>Gungans are an amphibious species native to the planet Naboo, they can live in both water and land, often making their home in underwater cities. Gungans are capable warriors, having strong leg muscles allowing them to jump around with ease, but have a lower intelligence than humans.</description>
+		<descriptionShort>Gungans are an amphibious species native to the planet Naboo, they can live in both water and land, often making their home in underwater cities.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Gungan</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_LeaperLegs</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>AptitudePoor_Intellectual</li>
+			<li>Learning_Slow</li>
+			<li>OuterRim_GunganHead</li>
+			<li>OuterRim_GunganEars</li>
+			<li>Outland_Skin_LightBrown</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Gungan</defName>
+		<label>gungan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Gungan>999</OuterRim_Gungan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_GunganTribal</defName>
+		<label>tribal gungan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Gungan>999</OuterRim_Gungan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneEarsBase">
+		<defName>OuterRim_GunganEars</defName>
+		<label>ears (gungan)</label>
+		<description>Carriers of this gene will grow long flat ears that trail from the back of their head.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_GunganEars</iconPath>
+		<displayOrderInCategory>7801</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>OuterRim/Genes/Ears/Gungan</graphicPath>
+			<layer>PostSkin</layer>
+			<colorType>Skin</colorType>
+			<drawOffsetNorth>(0, 0.2, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, -0.2, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.2, 0)</drawOffsetEast>
+		</graphicData>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>long</symbol>
+				</li>
+				<li>
+					<symbol>knife</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>point</symbol>
+				</li>
+				<li>
+					<symbol>sharp</symbol>
+				</li>
+				<li>
+					<symbol>ear</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_GunganHead</defName>
+		<label>gungan head</label>
+		<description>Carriers of this gene have the Gungan racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_GunganHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Gungan_MaleNormal</li>
+			<li>OuterRim_Gungan_FemaleNormal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>gungan</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Gungan_MaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Gungan/Male_Normal</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_GunganHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Gungan_FemaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Gungan/Female_Normal</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_GunganHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

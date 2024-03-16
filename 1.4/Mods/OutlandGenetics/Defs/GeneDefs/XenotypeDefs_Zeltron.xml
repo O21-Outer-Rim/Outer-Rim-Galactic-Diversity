@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Zeltron</defName>
+		<label>zeltron</label>
+		<description>Zeltrons are a humanoid species easily distinguished by their red skin tones and black/purple hair, otherwise looking like humans. Zeltrons experience the feelings of those around them, especially those they care about.</description>
+		<descriptionShort>Zeltrons are a humanoid species easily distinguished by their red skin tones and black/purple hair, otherwise looking like humans.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Zeltron</iconPath>
+		<genes>
+			<li>Hair_MidBlack</li>
+			<li>Hair_LightPurple</li>
+			<li>Skin_PaleRed</li>
+			<li>Outland_CalmingPheromones</li>
+			<li>Outland_Empathic</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Zeltron</defName>
+		<label>zeltron</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Zeltron>999</OuterRim_Zeltron>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_ZeltronTribal</defName>
+		<label>tribal zeltron</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Zeltron>999</OuterRim_Zeltron>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

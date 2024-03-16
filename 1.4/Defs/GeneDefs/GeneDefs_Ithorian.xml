@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Ithorian</defName>
+		<label>ithorian</label>
+		<description>Ithorians are a sentient species from the planet Ithor, having two mouths either side of their long necks giving them a deep, rumbling voice. Most Ithorians have a peaceful nature, being pacifistic to such a degree they often exile violent individuals from their homeworld entirely. They lack the ability to speak languages most of the galaxy do, relying on translator devices to communicate with those who do not know their language.</description>
+		<descriptionShort>Ithorians are a sentient species from the planet Ithor, having two mouths either side of their long necks giving them a deep, rumbling voice.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Ithorian</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_Skin_RedSubtle</li>
+			<li>Outland_Skin_BlueSubtle</li>
+			<li>Outland_Skin_GreenFaded</li>
+			<li>Outland_Skin_BrownFaded</li>
+			<li>Outland_Skin_DirtBrown</li>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_IthorianHead</li>
+			<li>Outland_UnusualSpeech</li>
+			<li>Aggression_DeadCalm</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Ithorian</defName>
+		<label>ithorian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Ithorian>999</OuterRim_Ithorian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_IthorianTribal</defName>
+		<label>tribal ithorian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Ithorian>999</OuterRim_Ithorian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_IthorianHead</defName>
+		<label>ithorian head</label>
+		<description>Carriers of this gene have the Ithorian racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_IthorianHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Ithorian_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>ithorian</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Ithorian_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Ithorian/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_IthorianHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

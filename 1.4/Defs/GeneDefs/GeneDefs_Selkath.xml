@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Selkath</defName>
+		<label>selkath</label>
+		<description>Selkath are a species of aquatic humanoids from the planet Manaan, they're most comfortable underwater and prefer to be immersed in liquid but those away from their homeworld don't often find themselves in a situation they can do so. Most consider the Selkath to be a peaceful and helpful people, due to their devotion to preserving their native oceans and taking care of the ill.</description>
+		<descriptionShort>Selkath are a species of aquatic humanoids from the planet Manaan.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Selkath</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_SelkathHead</li>
+			<li>Skin_Blue</li>
+			<li>Outland_Skin_BlueSubtle</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Selkath</defName>
+		<label>selkath</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Selkath>999</OuterRim_Selkath>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_SelkathTribal</defName>
+		<label>tribal selkath</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Selkath>999</OuterRim_Selkath>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_SelkathHead</defName>
+		<label>selkath head</label>
+		<description>Carriers of this gene have the Selkath racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_SelkathHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Selkath_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>selkath</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Selkath_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Selkath/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_SelkathHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

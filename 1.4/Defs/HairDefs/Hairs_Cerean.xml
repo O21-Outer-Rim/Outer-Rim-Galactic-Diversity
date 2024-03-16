@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<StyleItemCategoryDef>
+		<defName>Cerean</defName>
+		<label>Cerean</label>
+	</StyleItemCategoryDef>
+
+	<HairDef Name="OuterRimCereanHairBase" Abstract="True">
+		<styleGender>Any</styleGender>
+		<category>Cerean</category>
+		<requiredGene>OuterRim_CereanHead</requiredGene>
+		<styleTags>
+			<li>Cerean</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef ParentName="OuterRimCereanHairBase">
+		<defName>OuterRim_CereanBald</defName>
+		<label>cerean bald</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+	</HairDef>
+
+	<HairDef ParentName="OuterRimCereanHairBase">
+		<defName>OuterRim_CereanPony</defName>
+		<label>cerean pony</label>
+		<texPath>OuterRim/Hairs/Cerean/CereanPony</texPath>
+	</HairDef>
+
+	<HairDef ParentName="OuterRimCereanHairBase">
+		<defName>OuterRim_CereanMane</defName>
+		<label>cerean mane</label>
+		<texPath>OuterRim/Hairs/Cerean/CereanMane</texPath>
+	</HairDef>
+
+	<HairDef ParentName="OuterRimCereanHairBase">
+		<defName>OuterRim_CereanLong</defName>
+		<label>cerean long</label>
+		<texPath>OuterRim/Hairs/Cerean/CereanLong</texPath>
+	</HairDef>
+
+	<HairDef ParentName="OuterRimCereanHairBase">
+		<defName>OuterRim_CereanTuft</defName>
+		<label>cerean tuft</label>
+		<texPath>OuterRim/Hairs/Cerean/CereanTuft</texPath>
+	</HairDef>
+
+</Defs>

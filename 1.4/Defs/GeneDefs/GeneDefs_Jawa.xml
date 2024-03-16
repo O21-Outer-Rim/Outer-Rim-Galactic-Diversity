@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Jawa</defName>
+		<label>jawa</label>
+		<description>Jawas are a species from the plant Tatooine, they are short furry humanoids with glowing orange eyes. Jawas are known for often migrating off-world to other similar climate worlds to scavenge everything that isn't nailed down.</description>
+		<descriptionShort>Jawas are a species from the plant Tatooine, they are short furry humanoids with glowing orange eyes.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Jawa</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_InkBlack</li>
+			<li>Hair_BaldOnly</li>
+			<li>DarkVision</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Outland_Eye_Orange</li>
+			<li>Outland_BodyScale_Small</li>
+			<li>Outland_HighMetabolism</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Jawa</defName>
+		<label>jawa</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Jawa>999</OuterRim_Jawa>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_JawaTribal</defName>
+		<label>tribal jawa</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Jawa>999</OuterRim_Jawa>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

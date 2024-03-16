@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<OuterRim_Chiss>0.05</OuterRim_Chiss>
+		</value>
+	</Operation>
+
+</Patch>

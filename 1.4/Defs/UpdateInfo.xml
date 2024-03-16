@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- <TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_01122023</defName>
+		<date>2023/12/01</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Chadra-Fan
+- Echani
+- Feeorin
+- Ishi Tib
+- Rodian
+- Thyrsian</text>
+				<image>OuterRim/UpdateImages/NewRaces</image>
+			</li>
+			<li>
+				<header>Human-ish Xenotypes</header>
+				<text>Cultures can breed strengths and weaknesses, especially on a planetary scale. Now you can choose to enable a setting for this mod that adds a bunch of xenotypes that are human but with different pros and cons based on the world they're from, sometimes varying very slightly in appearance. For Example:
+- Alderaanian - Calm and artistic, but weak when it comes to shooting and melee.
+- Corellian - Hard working, but impulsive, acting out when they aren't happy.
+- Coruscanti - Politically capable, strong with social but weak with combat.
+- Lothalite - Industrious people, typically having a coppery shade of skin.
+- Mandalorian - Strong combat aptitudes, but weak social. Typically bright haired.
+- Naboo - Known for their fashion (somehow), they have improved artistic abilities but weaker plant work and ranching ability.
+These, if enabled, will also be added to appropriate factions, Mandalorians being a fairly obvious one that'll do so.</text>
+				<image>OuterRim/UpdateImages/PlanetaryHumans</image>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef> -->
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_10012024</defName>
+		<date>2024/01/10</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Soft Dependency</header>
+				<text>Outland - Genetics (link at the top) is now a soft dependency for this, if you want to just continue with the current set of xenotypes you won't need it, if you want this or any future updates xenotypes however, you'll need to have it. Came down to either not updating again or making this needed for them, it was too much work duplicating genes just to keep this standalone so it was either doing this or nothing.</text>
+			</li>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Arkanian
+- Bothan
+- Cathar
+- Dathomirian
+- Devaronian
+- Ewok
+- Force Goblin
+- Geonosian
+- Kaminoan
+- Massassi
+- Rakata
+- Sith
+- Sullustan
+- Zeltron</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>
