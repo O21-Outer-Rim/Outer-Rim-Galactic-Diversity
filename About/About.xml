@@ -4,6 +4,7 @@
 	<description>Outer Rim standalone module adding a vast array of new races to the game. They are all patched to spawn throughout the vanilla outlander and raider factions.</description>
 	<author>Neronix17</author>
 	<packageId>Neronix17.OuterRim.GalacticDiversity</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">OuterRim/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
