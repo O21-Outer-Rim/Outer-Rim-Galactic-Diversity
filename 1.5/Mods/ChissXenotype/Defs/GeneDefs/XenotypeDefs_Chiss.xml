@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Chiss</defName>
+		<label>chiss</label>
+		<description>A blue-skinned, red-eyed, near human sentient species native to the planet Csilla in the Unknown Regions. They left the galactic core millenia ago and changed during that time due to the environmental effects of the planet they settled now named Csilla. They have been largely disconnected from the rest of the galaxy aside from a handful of times where they made their way out of the maze like Unknown Regions.</description>
+		<descriptionShort>A blue-skinned, red-eyed, near human sentient species native to the planet Csilla in the Unknown Regions.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Chiss</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<nameMaker>OuterRim_ChissNameGenerator</nameMaker>
+		<chanceToUseNameMaker>999</chanceToUseNameMaker>
+		<genes>
+			<li>Eyes_Red</li>
+			<li>Hair_InkBlack</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_Grayless</li>
+			<li>Skin_Blue</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>AptitudeStrong_Social</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+			<li>Body_Standard</li>
+			<li>PsychicAbility_Dull</li>
+			<li>Aggression_DeadCalm</li>
+			<li>UVSensitivity_Mild</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

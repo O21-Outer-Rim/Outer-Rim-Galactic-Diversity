@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/GeneDef[@Name="GeneSkinColorOverride"]/exclusionTags/li[text()="SkinColorOverrideMale"]</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/GeneDef[@Name="GeneSkinColorOverride"]/exclusionTags</xpath>
+			<value>
+				<li>SkinColorOverrideMale</li>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/GeneDef[@Name="GeneSkinColorOverride"]/exclusionTags/li[text()="SkinColorOverrideFemale"]</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/GeneDef[@Name="GeneSkinColorOverride"]/exclusionTags</xpath>
+			<value>
+				<li>SkinColorOverrideFemale</li>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

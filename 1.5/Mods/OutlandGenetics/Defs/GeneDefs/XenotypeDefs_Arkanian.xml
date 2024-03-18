@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Arkanian</defName>
+		<label>arkanian</label>
+		<description>Arkanians are a near-human species native to the planet Arkania, characterized by the skin tone ranging from tan to pale, typically with white hair and eyes. They are experts in genetic engineering, but remain mostly human in appearance, with the only obvious differences being their clawed nails and 4 digits. They see into the infrared spectrum, which enhances their visual sensitivity significantly, but comes with the drawback that they prefer the dark and feel discomfort in the light.</description>
+		<descriptionShort>Arkanians are a near-human species native to the planet Arkania, characterized by the skin tone ranging from tan to pale, typically with white hair and eyes.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Arkanian</iconPath>
+		<genes>
+			<li>Hair_SnowWhite</li>
+			<li>Skin_Melanin1</li>
+			<li>Skin_Melanin2</li>
+			<li>Skin_Melanin3</li>
+			<li>Outland_Eye_White</li>
+			<li>DarkVision</li>
+			<li>Outland_HighMetabolism</li>
+			<li>Outland_DarklightAffinity</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Arkanian</defName>
+		<label>arkanian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Arkanian>999</OuterRim_Arkanian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_ArkanianTribal</defName>
+		<label>tribal arkanian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Arkanian>999</OuterRim_Arkanian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

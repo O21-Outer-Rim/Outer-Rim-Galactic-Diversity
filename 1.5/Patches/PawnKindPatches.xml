@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<!-- Batch One-->
+			<OuterRim_Abednedo>0.1</OuterRim_Abednedo>
+			<OuterRim_Aqualish>0.1</OuterRim_Aqualish>
+			<OuterRim_Bith>0.1</OuterRim_Bith>
+			<OuterRim_Cerean>0.1</OuterRim_Cerean>
+			<OuterRim_Duros>0.1</OuterRim_Duros>
+			<OuterRim_Gungan>0.05</OuterRim_Gungan>
+			<OuterRim_Herglic>0.01</OuterRim_Herglic>
+			<OuterRim_Iktotchi>0.1</OuterRim_Iktotchi>
+			<OuterRim_Iridonian>0.1</OuterRim_Iridonian>
+			<OuterRim_Ithorian>0.1</OuterRim_Ithorian>
+			<OuterRim_Miraluka>0.05</OuterRim_Miraluka>
+			<OuterRim_Mirialan>0.1</OuterRim_Mirialan>
+			<OuterRim_MonCalamari>0.1</OuterRim_MonCalamari>
+			<OuterRim_Neimoidian>0.1</OuterRim_Neimoidian>
+			<OuterRim_Nikto>0.1</OuterRim_Nikto>
+			<OuterRim_Pantoran>0.1</OuterRim_Pantoran>
+			<OuterRim_Pyke>0.1</OuterRim_Pyke>
+			<OuterRim_Quarren>0.1</OuterRim_Quarren>
+			<OuterRim_Selkath>0.1</OuterRim_Selkath>
+			<OuterRim_Togruta>0.1</OuterRim_Togruta>
+			<OuterRim_Trandoshan>0.1</OuterRim_Trandoshan>
+			<OuterRim_Twilek>0.15</OuterRim_Twilek>
+			<OuterRim_Umbaran>0.1</OuterRim_Umbaran>
+			<OuterRim_Wookiee>0.1</OuterRim_Wookiee>
+			<OuterRim_Jawa>0.05</OuterRim_Jawa>
+			<OuterRim_Tusken>0.01</OuterRim_Tusken>
+		</value>
+	</Operation>
+
+</Patch>

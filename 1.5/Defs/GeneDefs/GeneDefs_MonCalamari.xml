@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_MonCalamari</defName>
+		<label>mon calamari</label>
+		<description>Mon Calamari are a humanoid aquatic species from the planet Mon Cala, which they share with the Quarren species. They are easily recognised by their large high-domes heads with goggle-like eyes sticking out either side.</description>
+		<descriptionShort>Mon Calamari are a humanoid aquatic species from the planet Mon Cala, which they share with the Quarren species.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_MonCalamari</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_MonCalamariHead</li>
+			<li>Outland_Skin_RedSubtle</li>
+			<li>Skin_DeepRed</li>
+			<li>Outland_Skin_BlueSubtle</li>
+			<li>Outland_Skin_BlueSky</li>
+			<li>Skin_Orange</li>
+			<li>Skin_SheerWhite</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_MonCalamari</defName>
+		<label>mon calamari</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_MonCalamari>999</OuterRim_MonCalamari>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_MonCalamariTribal</defName>
+		<label>tribal mon calamari</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_MonCalamari>999</OuterRim_MonCalamari>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_MonCalamariHead</defName>
+		<label>mon calamari head</label>
+		<description>Carriers of this gene have the Mon Calamari racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_MonCalamariHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_MonCalamari_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>moncalamari</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_MonCalamari_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MonCalamari/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_MonCalamariHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

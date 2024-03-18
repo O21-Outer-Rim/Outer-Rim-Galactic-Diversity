@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Massassi</defName>
+		<label>massassi</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Massassi</iconPath>
+		<genes>
+			<li>Hair_Grayless</li>
+			<li>Skin_DeepRed</li>
+			<li>Outland_HairColor_DarkRed</li>
+			<li>Outland_FaceTendrils</li>
+			<li>Body_Hulk</li>
+			<li>Outland_Eye_Orange</li>
+			<li>Outland_BodyScale_Large</li>
+			<li>Hair_BaldOnly</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Massassi</defName>
+		<label>massassi</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Massassi>999</OuterRim_Massassi>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_MassassiTribal</defName>
+		<label>tribal massassi</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Massassi>999</OuterRim_Massassi>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

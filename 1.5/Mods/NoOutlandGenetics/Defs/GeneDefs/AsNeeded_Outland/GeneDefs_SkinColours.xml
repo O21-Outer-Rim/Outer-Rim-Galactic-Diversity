@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef Name="Outland_GeneSkinColorOverride" ParentName="GeneSkinColorOverride" Abstract="true">
+		<displayOrderInCategory>7900</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_BlueSky</defName>
+		<label>sky blue skin</label>
+		<labelShortAdj>sky blue</labelShortAdj>
+		<description>Carriers of this produce a sky blue pigment in their skin.</description>
+		<skinColorOverride>(95, 133, 191)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>sky blue</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7921</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_DirtBrown</defName>
+		<label>dirt brown skin</label>
+		<labelShortAdj>dirt brown</labelShortAdj>
+		<description>Carriers of this produce a dirt brown pigment in their skin.</description>
+		<skinColorOverride>(119, 91, 50)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>dirt brown</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7942</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_GreenSwamp</defName>
+		<label>swamp green skin</label>
+		<labelShortAdj>swamp green</labelShortAdj>
+		<description>Carriers of this produce a swamp green pigment in their skin.</description>
+		<skinColorOverride>(112, 131, 78)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>swamp green</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7931</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_GreenFaded</defName>
+		<label>faded green skin</label>
+		<labelShortAdj>faded green</labelShortAdj>
+		<description>Carriers of this produce a faded green pigment in their skin.</description>
+		<skinColorOverride>(86, 93, 76)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>faded green</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7928</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_BlueSubtle</defName>
+		<label>subtle blue skin</label>
+		<labelShortAdj>subtle blue</labelShortAdj>
+		<description>Carriers of this produce a subtle blue pigment in their skin.</description>
+		<skinColorOverride>(67, 81, 101)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>subtle blue</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7918</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_RedSubtle</defName>
+		<label>subtle red skin</label>
+		<labelShortAdj>subtle red</labelShortAdj>
+		<description>Carriers of this produce a subtle red pigment in their skin.</description>
+		<skinColorOverride>(132, 84, 72)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>subtle red</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7902</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_Cream</defName>
+		<label>cream skin</label>
+		<labelShortAdj>cream</labelShortAdj>
+		<description>Carriers of this produce a cream pigment in their skin.</description>
+		<skinColorOverride>(195, 192, 176)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>cream</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7955</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_BrownFaded</defName>
+		<label>faded brown skin</label>
+		<labelShortAdj>faded brown</labelShortAdj>
+		<description>Carriers of this produce a faded brown pigment in their skin.</description>
+		<skinColorOverride>(86, 76, 57)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>faded brown</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7940</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="Outland_GeneSkinColorOverride">
+		<defName>Outland_Skin_LightBrown</defName>
+		<label>light brown skin</label>
+		<labelShortAdj>brown</labelShortAdj>
+		<description>Carriers of this produce a light brown pigment in their skin.</description>
+		<skinColorOverride>(131, 110, 78)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>light brown</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7944</displayOrderInCategory>
+	</GeneDef>
+
+</Defs>

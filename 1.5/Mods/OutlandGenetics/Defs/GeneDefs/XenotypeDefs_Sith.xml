@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Sith</defName>
+		<label>sith</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
+		<genes>
+			<li>Hair_Grayless</li>
+			<li>Skin_DeepRed</li>
+			<li>Outland_HairColor_DarkRed</li>
+			<li>Outland_FaceTendrils</li>
+			<li>Outland_Eye_Orange</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Sith</defName>
+		<label>sith</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Sith>999</OuterRim_Sith>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_SithTribal</defName>
+		<label>tribal sith</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Sith>999</OuterRim_Sith>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

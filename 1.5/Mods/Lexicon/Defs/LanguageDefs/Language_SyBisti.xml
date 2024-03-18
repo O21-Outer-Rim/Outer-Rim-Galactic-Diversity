@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<Lexicon.LanguageDef>
+		<defName>OuterRim_Language_SyBisti</defName>
+		<label>Sy Bisti</label>
+		<learningDifficulty>0.2</learningDifficulty>
+		<commonality>20.0</commonality>
+		<socialImpact>0</socialImpact>
+		<capacityDefs>
+			<li>Talking</li>
+		</capacityDefs>
+	</Lexicon.LanguageDef>
+
+</Defs>

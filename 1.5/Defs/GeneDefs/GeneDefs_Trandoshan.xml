@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Trandoshan</defName>
+		<label>trandoshan</label>
+		<description>Trandoshans are a species of reptillian humanoids from the planet Trandosha, widely known as great hunters. They are famously capable of regenerating entire limbs and healing surprisingly fast. They have three fingered hands making it more difficult for them to finely operate equipment. Trandoshans are highly aggressive compared to other races, making them difficult to work with.</description>
+		<descriptionShort>Trandoshans are a species of reptillian humanoids from the planet Trandosha, widely known as great hunters.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Trandoshan</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Orange</li>
+			<li>Outland_Skin_GreenSwamp</li>
+			<li>Outland_Skin_RedSubtle</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_TrandoshanHead</li>
+			<li>Outland_Regeneration</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Outland_BodyScale_Large</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Trandoshan</defName>
+		<label>trandoshan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Trandoshan>999</OuterRim_Trandoshan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_TrandoshanTribal</defName>
+		<label>tribal trandoshan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Trandoshan>999</OuterRim_Trandoshan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_TrandoshanHead</defName>
+		<label>trandoshan head</label>
+		<description>Carriers of this gene have the Trandoshan racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_TrandoshanHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Trandoshan</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>trandoshan</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Trandoshan</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Trandoshan/Trandoshan</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_TrandoshanHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

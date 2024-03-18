@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Tusken</defName>
+		<label>tusken</label>
+		<description>Tusken Raiders are humanoids from the planet Tatooine, nomadic and isolationist in nature they travel in tribes. They are often found attacking local settlers, seeing anyone not native to their home as trespassing.\n\nNote: The appearance of Tuskens under their wrappings is not absolutely confirmed by either Canon or Legends, however Legends did show what they looked like in their distant past as Ghorfa and this xenotype is based on that.</description>
+		<descriptionShort>Tusken Raiders are humanoids from the planet Tatooine, nomadic and isolationist in nature they travel in tribes.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Tusken</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_MidBlack</li>
+			<li>Outland_Skin_BrownFaded</li>
+			<li>Outland_Skin_LightBrown</li>
+			<li>Aggression_Aggressive</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Outland_UnusualSpeech</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Tusken</defName>
+		<label>tusken</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Tusken>999</OuterRim_Tusken>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_TuskenTribal</defName>
+		<label>tribal tusken</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Tusken>999</OuterRim_Tusken>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>
