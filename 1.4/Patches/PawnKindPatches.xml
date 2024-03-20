@@ -9,6 +9,8 @@
 			<OuterRim_Aqualish>0.1</OuterRim_Aqualish>
 			<OuterRim_Bith>0.1</OuterRim_Bith>
 			<OuterRim_Cerean>0.1</OuterRim_Cerean>
+			<!-- <OuterRim_Dathomirian>0.05</OuterRim_Dathomirian> -->
+			<!-- <OuterRim_Devaronian>0.05</OuterRim_Devaronian> -->
 			<OuterRim_Duros>0.1</OuterRim_Duros>
 			<OuterRim_Gungan>0.05</OuterRim_Gungan>
 			<OuterRim_Herglic>0.01</OuterRim_Herglic>
@@ -29,8 +31,14 @@
 			<OuterRim_Twilek>0.15</OuterRim_Twilek>
 			<OuterRim_Umbaran>0.1</OuterRim_Umbaran>
 			<OuterRim_Wookiee>0.1</OuterRim_Wookiee>
+			<!-- Batch Two -->
 			<OuterRim_Jawa>0.05</OuterRim_Jawa>
 			<OuterRim_Tusken>0.01</OuterRim_Tusken>
+			<!-- <OuterRim_Cathar>0.1</OuterRim_Cathar>
+			<OuterRim_Ewok>0.1</OuterRim_Ewok>
+			<OuterRim_Rakata>0.1</OuterRim_Rakata>
+			<OuterRim_Sith>0.1</OuterRim_Sith>
+			<OuterRim_Zygerrian>0.1</OuterRim_Zygerrian> -->
 		</value>
 	</Operation>
 

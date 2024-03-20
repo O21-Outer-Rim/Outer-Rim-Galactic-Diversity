@@ -10,7 +10,6 @@
 	<PawnKindDef Name="OuterRimTestColonyPawnKind" Abstract="True">
 		<race>Human</race>
 		<xenotypeSet Inherit="False">
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<combatPower>40</combatPower>
 		<isFighter>false</isFighter>
@@ -36,7 +35,6 @@
 	<PawnKindDef Name="OuterRimTestTribalPawnKind" Abstract="True">
 		<race>Human</race>
 		<xenotypeSet Inherit="False">
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<combatPower>40</combatPower>
 		<isFighter>false</isFighter>

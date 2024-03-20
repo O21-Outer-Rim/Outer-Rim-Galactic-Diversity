@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Cerean</defName>
+		<label>cerean</label>
+		<description>Cereans are a species of sentient mammals hailing from the planet Cerea. They are distinguished by their enlarged conical cranium that contains a binary brain.</description>
+		<descriptionShort>Cereans are a species of sentient mammals hailing from the planet Cerea.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Cerean</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_CereanHead</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_CereanHead</defName>
+		<label>cerean head</label>
+		<description>Carriers of this gene have the Cerean racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_CereanHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<exclusionTags>
+			<li>HairStyle</li>
+		</exclusionTags>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Cerean</li>
+			</tags>
+		</hairTagFilter>
+		<forcedHeadTypes>
+			<li>OuterRim_Cerean_MaleNormal</li>
+			<li>OuterRim_Cerean_FemaleNormal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>cerean</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Cerean_MaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Cerean/Male_Normal</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_CereanHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Cerean_FemaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Cerean/Female_Normal</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_CereanHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

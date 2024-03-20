@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Iridonian</defName>
+		<label>iridonian</label>
+		<description>Iridonians are a subspecies of Zabrak from the planet Iridonia, besides having a crown of horns they are largely indistinguishable from humans.</description>
+		<descriptionShort>Iridonians are a subspecies of Zabrak from the planet Iridonia, besides having a crown of horns they are largely indistinguishable from humans.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Iridonian</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Hair_ShortOnly</li>
+			<!-- <li>OuterRim_IridonianHead</li> -->
+			<li>OuterRim_ZabrakHorns</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadboneHornBase">
+		<defName>OuterRim_ZabrakHorns</defName>
+		<label>zabrak horns</label>
+		<description>Carriers of this gene grow man small horns on their head.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_ZabrakHorns</iconPath>
+		<displayOrderInCategory>9500</displayOrderInCategory>
+		<graphicData>
+			<drawOffsetNorth>(0, 0.1, 0)</drawOffsetNorth>
+			<graphicPaths>
+				<li>OuterRim/Genes/Headbone/Zabrak0</li>
+				<li>OuterRim/Genes/Headbone/Zabrak1</li>
+				<li>OuterRim/Genes/Headbone/Zabrak2</li>
+				<li>OuterRim/Genes/Headbone/Zabrak3</li>
+				<li>OuterRim/Genes/Headbone/Zabrak4</li>
+			</graphicPaths>
+			<color>(255, 255, 255)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+	</GeneDef>
+
+</Defs>

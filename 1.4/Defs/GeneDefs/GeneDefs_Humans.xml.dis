@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef Name="OuterRimCulturalXenotypeBase" Abstract="True">
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<inheritable>true</inheritable>
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Alderaanian</defName>
+		<label>alderaanian</label>
+		<description>Alderaanians were a cultural group of humans native to the planet Alderaan. Known for their pacifistic values and devotion to the arts.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_AlderaanianMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_AlderaanianFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Chandrilan</defName>
+		<label>chandrilan</label>
+		<description>The Chandrilans were a cultural group of humans who called the planet of Chandrila home. They were regarded as peaceful but slightly haughty, pedantic, and interested in politics.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_ChandrilanMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_ChandrilanFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Corellian</defName>
+		<label>corellian</label>
+		<description>Corellians were a cultural group of humans native to the planet Corellia. Hard working but often a bit rebellious natured.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_CorellianMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_CorellianFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Coruscanti</defName>
+		<label>coruscanti</label>
+		<description>The Coruscanti were the inhabitants of Coruscant, a city-wide planet and the historic capital of the galaxy during the time of the Galactic Republic and the age of the Galactic Empire. Coruscanti were considered principled, able to verbally parry and weave in debates and politics.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_CoruscantiMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_CoruscantiFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Lothalite</defName>
+		<label>lothalite</label>
+		<description>Lothalites, also called Lothalians, were a cultural group of humans native to the Outer Rim planet Lothal. Most had a copper sheen to their skin.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_LothaliteMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_LothaliteFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Mandalorian</defName>
+		<label>mandalorian</label>
+		<description>The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common creed, language and code, and played a particularly important role in galactic history as legendary warriors with a fearsome reputation as conquerors as well as mercenaries and bounty hunters.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_MandalorianMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_MandalorianFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Naboo</defName>
+		<label>naboo</label>
+		<description>The Naboo were a cultural group of humans from the planet Naboo. Contrary to the native Gungans, with whom they shared their world, the Naboo originated offworld as human colonists. The Naboo aristocrats were known for their sartorial extravagance.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_NabooMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_NabooFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="OuterRimCulturalXenotypeBase">
+		<defName>OuterRim_Serennian</defName>
+		<label>serennian</label>
+		<description>Serennians were a cultural group of humans native to the planet Serenno. Serennian nobility could be identified by the wearing of a Serennian cloak.</description>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<!-- <nameMaker>OuterRim_NameMaker_SerennianMale</nameMaker>
+		<nameMakerFemale>OuterRim_NameMaker_SerennianFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+	</XenotypeDef>
+
+</Defs>

@@ -20,24 +20,24 @@
 			<li Class="TabulaRasa.DefModExt_GeneRegeneration">
 				<healTicks>1200</healTicks>
 				<regrowParts>true</regrowParts>
-				<cureTicks>300</cureTicks>
-				<removeInfections>true</removeInfections>
-				<infectionsAllowed />
-				<explicitRemovals>
-					<li>FibrousMechanites</li>
-					<li>SensoryMechanites</li>
-					<li>Dementia</li>
-					<li>Alzheimers</li>
-					<li>Asthma</li>
-					<li>HeartArteryBlockage</li>
-					<li>Carcinoma</li>
-					<li>HearingLoss</li>
-					<li>Cataract</li>
-					<li>BadBack</li>
-					<li>Frail</li>
-					<li>ResurrectionPsychosis</li>
-				</explicitRemovals>
-				<growthTicks>600</growthTicks>
+                <cureTicks>300</cureTicks>
+                <removeInfections>true</removeInfections>
+                <infectionsAllowed />
+                <explicitRemovals>
+                    <li>FibrousMechanites</li>
+                    <li>SensoryMechanites</li>
+                    <li>Dementia</li>
+                    <li>Alzheimers</li>
+                    <li>Asthma</li>
+                    <li>HeartArteryBlockage</li>
+                    <li>Carcinoma</li>
+                    <li>HearingLoss</li>
+                    <li>Cataract</li>
+                    <li>BadBack</li>
+                    <li>Frail</li>
+                    <li>ResurrectionPsychosis</li>
+                </explicitRemovals>
+                <growthTicks>600</growthTicks>
 				<growthText>Growth: </growthText>
 				<protoBodyPart>Outland_ProtoBodypart</protoBodyPart>
 			</li>

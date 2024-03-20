@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Miraluka</defName>
+		<label>miraluka</label>
+		<description>Miraluka are near-humans that are almost completely indistiguishable from humans aside from a lack of visible eyes. Despite this lack of physical sight they can still 'see' perfectly well, possibly even better than others, through an inherent force connection allowing them to see through the force itself. Miraluka often wear coverings over the vestigial eyes, as the sight often makes other races uncomfortable.</description>
+		<descriptionShort>Miraluka are near-humans that are almost completely indistiguishable from humans aside from a lack of visible eyes. Despite this lack of physical sight they can still 'see' perfectly well.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Miraluka</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>OuterRim_MiralukaHead</li>
+			<li>OuterRim_ForceSight</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef>
+		<defName>OuterRim_ForceSight</defName>
+		<label>force sight</label>
+		<iconPath>OuterRim/GeneIcons/Gene_ForceSight</iconPath>
+		<description>Carriers of this gene are capable of seeing through the force, damage to or lack of eyes has no effect on their ability to see.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Sight capacity has a minimum value of 100%.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_MiralukaHead</defName>
+		<label>miraluka head</label>
+		<description>Carriers of this gene have the Miraluka racial head type, only having vestigial eyes.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_MiralukaHead</iconPath>
+		<geneClass>OuterRimDiversity.Gene_NoEyes</geneClass>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Miraluka_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>miraluka</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Miraluka_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Miraluka/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_MiralukaHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

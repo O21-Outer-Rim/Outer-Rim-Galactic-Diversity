@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Umbaran</defName>
+		<label>umbaran</label>
+		<description>Umbarans are a near-human species from the planet Umbara, distinguished by their pale skin and colorless eyes. They have an innate ability to manipulate others with their social prowess, even leading to rumours that Umbarans have the ability to control minds.</description>
+		<descriptionShort>Umbarans are a near-human species from the planet Umbara, distinguished by their pale skin and colorless eyes.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Umbaran</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Head_Gaunt</li>
+			<li>Skin_SheerWhite</li>
+			<li>Outland_Eye_White</li>
+			<li>AptitudeStrong_Social</li>
+			<!-- TODO: Face markings -->
+			<!-- <li>OuterRim_UmbaranMarkings</li> -->
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

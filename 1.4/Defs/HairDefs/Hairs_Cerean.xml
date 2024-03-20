@@ -9,7 +9,6 @@
 	<HairDef Name="OuterRimCereanHairBase" Abstract="True">
 		<styleGender>Any</styleGender>
 		<category>Cerean</category>
-		<requiredGene>OuterRim_CereanHead</requiredGene>
 		<styleTags>
 			<li>Cerean</li>
 		</styleTags>

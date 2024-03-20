@@ -1,4 +1,0 @@
-F:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Diversity\1.4\Source\OuterRimDiversity\obj\Debug\OuterRimDiversity.csproj.AssemblyReference.cache
-F:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Diversity\1.4\Source\OuterRimDiversity\obj\Debug\OuterRimDiversity.csproj.CoreCompileInputs.cache
-F:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Diversity\1.4\Assemblies\OuterRimDiversity.dll
-F:\RWModCategories\Neronix17\OuterRim\Outer Rim - Galactic Diversity\1.4\Source\OuterRimDiversity\obj\Debug\OuterRimDiversity.dll

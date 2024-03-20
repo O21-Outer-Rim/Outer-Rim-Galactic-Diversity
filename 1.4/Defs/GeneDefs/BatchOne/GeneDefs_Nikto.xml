@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Nikto</defName>
+		<label>nikto</label>
+		<description>Nikto are a humanoid species from the planet Kintan, they are distinguished by their scaly coarse skin, horns and spikes. Many Nikto them are employed as enforcers through the galaxy and many more make their way as pirate clans.</description>
+		<descriptionShort>Nikto are a humanoid species from the planet Kintan.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Nikto</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_LightGray</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_NiktoHead</li>
+			<li>Outland_Skin_GreenSwamp</li>
+			<li>Outland_Skin_RedSubtle</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_NiktoHead</defName>
+		<label>nikto head</label>
+		<description>Carriers of this gene have the Nikto racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_NiktoHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Nikto</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>nikto</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Nikto</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Nikto/Nikto</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_NiktoHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

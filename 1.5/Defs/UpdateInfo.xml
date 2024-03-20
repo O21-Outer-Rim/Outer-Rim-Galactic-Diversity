@@ -49,13 +49,13 @@ These, if enabled, will also be added to appropriate factions, Mandalorians bein
 	</TabulaRasa.UpdateDef> -->
 
 	<TabulaRasa.UpdateDef>
-		<defName>OuterRim_Diversity_10012024</defName>
-		<date>2024/01/10</date>
+		<defName>OuterRim_Diversity_10032024</defName>
+		<date>2024/03/30</date>
 		<banner>UpdateInfo/O21OuterRim</banner>
 		<contentList>
 			<li>
-				<header>Soft Dependency</header>
-				<text>Outland - Genetics (link at the top) is now a soft dependency for this, if you want to just continue with the current set of xenotypes you won't need it, if you want this or any future updates xenotypes however, you'll need to have it. Came down to either not updating again or making this needed for them, it was too much work duplicating genes just to keep this standalone so it was either doing this or nothing.</text>
+				<header>1.5 Dependency Change</header>
+				<text>Outland - Genetics (link at the top) is now a dependency for this going forward. I tried the standalone route with it being optional and just copying over genes as needed but that quickly became way too much work to deal with. Was either this or I stopped adding xenotypes at all and I have a lot of them still to do.</text>
 			</li>
 			<li>
 				<header>Added Xenotypes</header>

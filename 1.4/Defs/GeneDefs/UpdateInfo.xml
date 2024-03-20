@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_28052023</defName>
+		<date>2023/05/28</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<content><![CDATA[<b>New Xenotypes:</b>
+
+- Jawa
+- Tusken
+
+<i>Left click to go to Workshop page, Right click to dismiss update.</i>]]></content>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+		<important>False</important>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

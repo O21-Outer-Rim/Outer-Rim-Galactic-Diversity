@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Aqualish</defName>
+		<label>aqualish</label>
+		<description>Aqualish are a species of sentient humanoids from the planet Ando, they are easily identified by their round black eyes and fur. Some members of the species can have four eyes, but it's more common for them to have two.</description>
+		<descriptionShort>Aqualish are a species of sentient humanoids from the planet Ando.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Aqualish</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_AqualishHead</li>
+			<li>Aggression_Aggressive</li>
+			<li>DarkVision</li>
+			<li>Outland_Skin_Cream</li>
+			<li>Outland_Skin_LightBrown</li>
+			<li>Outland_Skin_BrownFaded</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_InkBlack</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_AqualishHead</defName>
+		<label>aqualish head</label>
+		<description>Carriers of this gene have the Aqualish racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_AqualishHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Aqualish_Duo</li>
+			<li>OuterRim_Aqualish_Quad</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>aqualish</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Aqualish_Duo</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Aqualish/Duo</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_AqualishHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Aqualish_Quad</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Aqualish/Quad</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_AqualishHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

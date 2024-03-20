@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Twilek</defName>
+		<label>twi'lek</label>
+		<description>Twi'leks are a near-human species from the planet Ryloth, often found throughout the galaxy as slaves, they are considered one of the most common species in the galaxy. Twi'leks are distinguished easily by their colour variety and smooth, patterned lekku. They have a subtle sexual dimorphism in that the males have pointed human ears and females have cone shaped hearing organs instead.</description>
+		<descriptionShort>Twi'leks are a near-human species from the planet Ryloth, often found throughout the galaxy as slaves, they are considered one of the most common species in the galaxy.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Twilek</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>OuterRim_TwilekHead</li>
+			<li>Skin_Orange</li>
+			<li>Skin_Green</li>
+			<li>Skin_Blue</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_TwilekHead</defName>
+		<label>twi'lek head</label>
+		<description>Carriers of this gene have the Twi'lek racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_Lekku</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Twilek_MaleNormal</li>
+			<li>OuterRim_Twilek_MaleStriped</li>
+			<li>OuterRim_Twilek_FemaleNormal</li>
+			<li>OuterRim_Twilek_FemaleStriped</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>twilek</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Twilek_MaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Twilek/Male_Normal</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_TwilekHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Twilek_MaleStriped</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Twilek/Male_Striped</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_TwilekHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Twilek_FemaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Twilek/Female_Normal</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_TwilekHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Twilek_FemaleStriped</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Twilek/Female_Striped</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_TwilekHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

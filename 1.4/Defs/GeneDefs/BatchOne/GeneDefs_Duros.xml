@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>OuterRim_Duros</defName>
+		<label>duros</label>
+		<description>Duros are a humanoid species common in the galaxy native to the planet Duro. They have smooth blue skin, red eyes and lipless mouths, lacking a nose entirely. They are related to the similar-looking Neimoidian species, having diverged as physically distinct species millenia ago.</description>
+		<descriptionShort>Duros are a humanoid species common in the galaxy native to the planet Duro. They have smooth blue skin, red eyes and lipless mouths, lacking a nose entirely.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Duros</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Blue</li>
+			<li>Eyes_Red</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_DurosHead</li>
+			<li>Outland_Blood_Green</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_DurosHead</defName>
+		<label>duros head</label>
+		<description>Carriers of this gene have the Duros racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_DurosHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Duros_MaleNormal</li>
+			<li>OuterRim_Duros_FemaleNormal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>duros</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Duros_MaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Duros/Male_Normal</graphicPath>
+		<gender>Male</gender>
+		<requiredGenes>
+			<li>OuterRim_DurosHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Duros_FemaleNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Duros/Female_Normal</graphicPath>
+		<gender>Female</gender>
+		<requiredGenes>
+			<li>OuterRim_DurosHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>
