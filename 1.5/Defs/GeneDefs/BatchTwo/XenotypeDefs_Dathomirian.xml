@@ -77,18 +77,26 @@
 		<description>Carriers of this gene grow man small horns on their head.\n\nOnly affects male pawns.</description>
 		<iconPath>OuterRim/GeneIcons/Gene_ZabrakHorns</iconPath>
 		<displayOrderInCategory>9500</displayOrderInCategory>
-		<graphicData>
-			<drawOffsetNorth>(0, 0.1, 0)</drawOffsetNorth>
-			<graphicPaths>
-				<li>OuterRim/Genes/Headbone/Zabrak0</li>
-				<li>OuterRim/Genes/Headbone/Zabrak1</li>
-				<li>OuterRim/Genes/Headbone/Zabrak2</li>
-				<li>OuterRim/Genes/Headbone/Zabrak3</li>
-				<li>OuterRim/Genes/Headbone/Zabrak4</li>
-			</graphicPaths>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>OuterRim/Genes/Headbone/Zabrak0</li>
+					<li>OuterRim/Genes/Headbone/Zabrak1</li>
+					<li>OuterRim/Genes/Headbone/Zabrak2</li>
+					<li>OuterRim/Genes/Headbone/Zabrak3</li>
+					<li>OuterRim/Genes/Headbone/Zabrak4</li>
+				</texPaths>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<modExtensions Inherit="False">
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>

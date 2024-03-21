@@ -49,12 +49,24 @@
 		<description>Carriers of this gene grow two small horns protruding from the forehead. Male horns are much more prominent while female horns are barely more than bumps.</description>
 		<iconPath>Outland/Genes/Horns/Common/LongProng</iconPath>
 		<displayOrderInCategory>9500</displayOrderInCategory>
-		<graphicData>
-			<graphicPath>Outland/Genes/Horns/Common/LongProng</graphicPath>
-			<graphicPathFemale>Outland/Genes/Horns/Common/Bulb</graphicPathFemale>
-			<color>(255, 255, 255)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>Outland/Genes/Horns/Common/LongProng</texPath>
+				<texPathFemale>Outland/Genes/Horns/Common/Bulb</texPathFemale>
+				<color>(255, 255, 255)</color>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>

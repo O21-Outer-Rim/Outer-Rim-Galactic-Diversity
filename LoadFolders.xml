@@ -5,12 +5,10 @@
 		<li IfModNotActive="Neronix17.Outland.Genetics">1.4/Mods/NoOutlandGenetics</li>
 		<li>1.4</li>
 		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.4/Mods/ChissXenotype</li>
-		<li IfModActive="Neronix17.Outland.Genetics">1.4/Mods/OutlandGenetics</li>
 	</v1.4>
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
 		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.5/Mods/ChissXenotype</li>
-		<li IfModActive="Neronix17.Outland.Genetics">1.5/Mods/OutlandGenetics</li>
 	</v1.5>
 </loadFolders>

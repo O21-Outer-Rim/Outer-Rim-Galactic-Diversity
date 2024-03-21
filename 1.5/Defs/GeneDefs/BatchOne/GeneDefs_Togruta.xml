@@ -144,12 +144,20 @@
 		<description>Carriers of this gene grow large hollow horns that cover the majority of the head, with soft fleshy tails extending below the head.</description>
 		<iconPath>OuterRim/GeneIcons/Gene_Montrals</iconPath>
 		<displayOrderInCategory>9500</displayOrderInCategory>
-		<graphicData>
-			<drawOffsetNorth>(0, 0.1, 0)</drawOffsetNorth>
-			<graphicPath>OuterRim/Genes/Headbone/Montrals</graphicPath>
-			<colorType>Hair</colorType>
-			<layer>PostTattoo</layer>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPath>OuterRim/Genes/Headbone/Montrals</texPath>
+				<colorType>Hair</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
 	</GeneDef>
 	
 </Defs>
