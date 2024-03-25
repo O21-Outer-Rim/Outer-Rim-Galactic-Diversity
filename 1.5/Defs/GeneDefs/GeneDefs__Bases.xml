@@ -30,12 +30,6 @@
 	<GeneDef ParentName="GeneEarsBase" Name="OuterRim_GeneEarsBase" Abstract="True">
 		<canGenerateInGeneSet>false</canGenerateInGeneSet>
 		<displayOrderInCategory>7800</displayOrderInCategory>
-		<graphicData>
-			<layer>PostHair</layer>
-			<drawNorthAfterHair>false</drawNorthAfterHair>
-			<useSkinShader>false</useSkinShader>
-			<drawLoc>HeadTop</drawLoc>
-		</graphicData>
 		<exclusionTags>
 			<li>Ears</li>
 		</exclusionTags>
@@ -49,11 +43,6 @@
 
 	<GeneDef Name="OuterRim_GeneHeadboneHornBase" ParentName="GeneHeadboneBase" Abstract="True">
 		<canGenerateInGeneSet>false</canGenerateInGeneSet>
-		<graphicData>
-			<drawOffsetNorth>(0, -0.2, 0)</drawOffsetNorth>
-			<drawOffsetSouth>(0, 0.1, 0)</drawOffsetSouth>
-			<drawOffsetEast>(0, 0.2, 0)</drawOffsetEast>
-		</graphicData>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
