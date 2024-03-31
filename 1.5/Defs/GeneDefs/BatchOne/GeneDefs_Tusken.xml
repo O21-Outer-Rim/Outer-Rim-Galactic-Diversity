@@ -13,8 +13,8 @@
 		<inheritable>true</inheritable>
 		<genes>
 			<li>Hair_MidBlack</li>
-			<li>Outland_Skin_BrownFaded</li>
-			<li>Outland_Skin_LightBrown</li>
+			<li>Outland_Skin_Brown</li>
+			<li>Outland_Skin_PaleBrown</li>
 			<li>Aggression_Aggressive</li>
 			<li>MaxTemp_SmallIncrease</li>
 			<li>Outland_UnusualSpeech</li>

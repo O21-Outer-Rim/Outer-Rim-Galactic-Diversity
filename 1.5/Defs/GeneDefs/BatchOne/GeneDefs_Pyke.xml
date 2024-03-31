@@ -12,9 +12,9 @@
 		<combatPowerFactor>1.0</combatPowerFactor>
 		<inheritable>true</inheritable>
 		<genes>
-			<li>Outland_Skin_BlueSky</li>
-			<li>Outland_Skin_GreenSwamp</li>
-			<li>Outland_Skin_Cream</li>
+			<li>Outland_Skin_PaleBlue</li>
+			<li>Outland_Skin_Sage</li>
+			<li>Skin_LightGray</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>OuterRim_PykeHead</li>

@@ -11,7 +11,7 @@
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_ForceGremlin</iconPath>
 		<genes>
 			<li>Skin_Green</li>
-			<li>Outland_HighMetabolism</li>
+			<li>Outland_Pos1Metabolism</li>
 			<li>Outland_Ears_BigEars</li>
 			<li>Outland_BodyScale_Tiny</li>
 			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
