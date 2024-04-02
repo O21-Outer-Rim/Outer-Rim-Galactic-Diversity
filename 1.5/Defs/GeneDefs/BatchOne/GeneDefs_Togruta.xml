@@ -16,9 +16,15 @@
 			<li>Skin_Green</li>
 			<li>Skin_Blue</li>
 			<li>Skin_Purple</li>
-			<li>Hair_LightTeal</li>
-			<li>Hair_LightBlue</li>
-			<li>Hair_BrightRed</li>
+			<li>Outland_Skin_Red</li>
+			<li>Outland_Skin_Azure</li>
+			<li>Outland_Skin_Sage</li>
+			<li>Outland_HairColor_BrightBlue</li>
+			<li>Outland_HairColor_DarkBlue</li>
+			<li>Outland_HairColor_BrightRed</li>
+			<li>Outland_HairColor_BrightLime</li>
+			<li>Outland_HairColor_BrightSage</li>
+			<li>Outland_HairColor_BrightPurple</li>
 			<li>Hair_BaldOnly</li>
 			<li>Hair_Grayless</li>
 			<li>Beard_NoBeardOnly</li>

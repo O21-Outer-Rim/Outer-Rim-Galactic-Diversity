@@ -49,8 +49,8 @@ These, if enabled, will also be added to appropriate factions, Mandalorians bein
 	</TabulaRasa.UpdateDef> -->
 
 	<TabulaRasa.UpdateDef>
-		<defName>OuterRim_Diversity_10032024</defName>
-		<date>2024/03/30</date>
+		<defName>OuterRim_Diversity_03042024</defName>
+		<date>2024/04/03</date>
 		<banner>UpdateInfo/O21OuterRim</banner>
 		<contentList>
 			<li>
