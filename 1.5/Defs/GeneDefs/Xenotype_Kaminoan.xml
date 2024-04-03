@@ -6,7 +6,7 @@
 	<XenotypeDef ParentName="OuterRimXenoBase">
 		<defName>OuterRim_Kaminoan</defName>
 		<label>kaminoan</label>
-		<description>TODO</description>
+		<description>Kaminoans are a tall, thin, amphibian species from the aquatic planet Kamino. They specilise in cloning and genetic engineering, to a level few other civilizations have shown to be capable of. Their slender physique and peaceful nature has the unfortunate effect of them being quite weak and easily harmed in a fight.</description>
 		<descriptionShort>TODO</descriptionShort>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_Kaminoan</iconPath>
 		<genes>
@@ -14,8 +14,12 @@
 			<li>Beard_NoBeardOnly</li>
 			<li>Skin_SheerWhite</li>
 			<li>Body_Thin</li>
-			<!-- <li>Outland_BodyScale_Slender</li> -->
 			<li>OuterRim_KaminoanHead</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Pain_Extra</li>
+			<li>AptitudeStrong_Medicine</li>
+			<li>AptitudeStrong_Intellectual</li>
+			<li>Delicate</li>
 		</genes>
 	</XenotypeDef>
 	

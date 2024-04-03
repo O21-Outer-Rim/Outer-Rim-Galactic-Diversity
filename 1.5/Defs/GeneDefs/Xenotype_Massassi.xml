@@ -6,18 +6,23 @@
 	<XenotypeDef ParentName="OuterRimXenoBase">
 		<defName>OuterRim_Massassi</defName>
 		<label>massassi</label>
-		<description>TODO</description>
-		<descriptionShort>TODO</descriptionShort>
-		<iconPath>OuterRim/XenotypeIcons/Xenotype_Massassi</iconPath>
+		<description>Massassi are a subspecies of the Sith race, a similar appearance of distinctive red ridged skin, with facial tendrils. However the similarities stop there, they are much larger, hulking forms, making them formidible warriors. They are known for having been responsible for many temples across the galaxy..</description>
+		<descriptionShort>Massassi are a subspecies of the Sith race, a similar appearance of distinctive red ridged skin, with facial tendrils. However the similarities stop there, they are much larger, hulking forms, making them formidible warriors.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
 		<genes>
-			<li>Hair_Grayless</li>
 			<li>Skin_DeepRed</li>
-			<li>Outland_HairColor_DarkRed</li>
 			<li>Outland_FaceTendrils</li>
 			<li>Body_Hulk</li>
 			<li>Outland_Eye_Orange</li>
 			<li>Outland_BodyScale_Large</li>
 			<li>Hair_BaldOnly</li>
+			<li>AptitudeTerrible_Intellectual</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>Outland_RidgedSkin</li>
+			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
 		</genes>
 	</XenotypeDef>
 	

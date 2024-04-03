@@ -8,12 +8,16 @@
 		<label>force gremlin</label>
 		<description>An extremely rare and unnamed sentient species, nicknamed 'force gremlins' by at least one group of humans. This species is capable of living for a very long time, but have an equally long period of growth, taking the entire lifetime of some other species just to mature into adulthood. All known examples of this species has been highly force sensitive, making them a dangerous enemy if you were to cross them.</description>
 		<descriptionShort>An extremely rare and unnamed sentient species, nicknamed 'force gremlins' by at least one group of humans.</descriptionShort>
+		<factionlessGenerationWeight>0.001</factionlessGenerationWeight>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_ForceGremlin</iconPath>
 		<genes>
 			<li>Skin_Green</li>
-			<li>Outland_Pos1Metabolism</li>
+			<li>Outland_Pos3Metabolism</li>
 			<li>Outland_Ears_BigEars</li>
 			<li>Outland_BodyScale_Tiny</li>
+			<li>Aggression_DeadCalm</li>
+			<li>Outland_LowFertility</li>
+			<li>OuterRim_UnusualAgeing</li>
 			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
 		</genes>
 	</XenotypeDef>
@@ -41,5 +45,30 @@
 	</PawnKindDef>
 	
 	<!-- ============================== Genes ============================== -->
+
+	<GeneDef>
+		<defName>OuterRim_UnusualAgeing</defName>
+		<label>unusual ageing</label>
+		<description>Carriers of this gene age much slower than most, at the cost of also maturing much slower. By the time a pawn with this gene reaches maturity, another may have lived their entire life.</description>
+		<iconPath>Outland/GeneIcons/Gene_FeyAgeing</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>7804</displayOrderInCategory>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(0, 0.09)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<customEffectDescriptions>
+			<li>Aging is just incredibly slow, 9% of normal speed.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
 	
 </Defs>

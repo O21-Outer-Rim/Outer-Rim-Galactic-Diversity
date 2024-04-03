@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Rakata</defName>
+		<label>rakata</label>
+		<description>Rakatans are an amphibious humanoid species from the planet Lehon. According to ancient legend, they were the first to develop hyperspace travel, and used the dark side of the force even in their technology. The long-term use of the dark side corrupted them and led to a collapse of the galaxy spanning empire they had created, while a plague struck the species and almost wiped them out. The remaining population of Rakatans were left incapable of using the force.</description>
+		<descriptionShort>Rakatans are an amphibious humanoid species from the planet Lehon. According to ancient legend, they were the first to develop hyperspace travel.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Rakata</iconPath>
+		<genes>
+			<li>OuterRim_RakatanHead</li>
+			<li>Skin_Melanin2</li>
+			<li>Skin_Melanin3</li>
+			<li>Skin_Melanin4</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceInsensitive</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Rakata</defName>
+		<label>rakata</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Rakata>999</OuterRim_Rakata>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_RakataTribal</defName>
+		<label>tribal rakata</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Rakata>999</OuterRim_Rakata>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_RakatanHead</defName>
+		<label>rakatan head</label>
+		<description>Carriers of this gene have the Rakatan racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_RakatanHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Rakatan</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>rakatan</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Rakatan</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Rakatan/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_RakatanHead</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	
+</Defs>

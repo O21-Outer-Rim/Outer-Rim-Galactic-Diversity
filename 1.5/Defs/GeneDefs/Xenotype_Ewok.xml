@@ -6,8 +6,8 @@
 	<XenotypeDef ParentName="OuterRimXenoBase">
 		<defName>OuterRim_Ewok</defName>
 		<label>ewok</label>
-		<description>TODO</description>
-		<descriptionShort>TODO</descriptionShort>
+		<description>Ewoks are a small primitive species of furry bipeds from the forest moon of Endor, rarely found elsewhere. Despite their diminutive size, they are highly aggressive and capable predators.</description>
+		<descriptionShort>Ewoks are a small primitive species of furry bipeds from the forest moon of Endor, rarely found elsewhere. Despite their diminutive size, they are highly aggressive and capable predators.</descriptionShort>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_Ewok</iconPath>
 		<genes>
 			<li>Hair_SandyBlonde</li>

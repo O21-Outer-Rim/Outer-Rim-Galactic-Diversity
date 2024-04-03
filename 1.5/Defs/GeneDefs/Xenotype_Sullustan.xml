@@ -6,8 +6,8 @@
 	<XenotypeDef ParentName="OuterRimXenoBase">
 		<defName>OuterRim_Sullustan</defName>
 		<label>sullustan</label>
-		<description>TODO</description>
-		<descriptionShort>TODO</descriptionShort>
+		<description>Sullustans are a species of humanoids from the planet Sullust, experts in manufacturing, scientific and technological development. The majority of the species lives in subterranean cities, with their large eyes being well adapted to the dark.</description>
+		<descriptionShort>Sullustans are a species of humanoids from the planet Sullust, experts in manufacturing, scientific and technological development.</descriptionShort>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_Sullustan</iconPath>
 		<genes>
 			<li>DarkVision</li>
@@ -18,6 +18,8 @@
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Outland_Ears_Large</li>
+			<li>AptitudeTerrible_Melee</li>
+			<li>AptitudeStrong_Intellectual</li>
 		</genes>
 	</XenotypeDef>
 	

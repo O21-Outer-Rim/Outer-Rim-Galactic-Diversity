@@ -6,8 +6,8 @@
 	<XenotypeDef ParentName="OuterRimXenoBase">
 		<defName>OuterRim_Sith</defName>
 		<label>sith</label>
-		<description>TODO</description>
-		<descriptionShort>TODO</descriptionShort>
+		<description>Sith are a red skinned humanoid species with distinctive facial tentacles and ridged skin, sharing their name with the Sith Order of dark side force-sensitives it should be no surprise that they are commonly found to be users of the dark side themselves.</description>
+		<descriptionShort>Sith are a red skinned humanoid species with distinctive facial tentacles and ridged skin, sharing their name with the Sith Order of dark side force-sensitives it should be no surprise that they are commonly found to be users of the dark side themselves.</descriptionShort>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
 		<genes>
 			<li>Hair_Grayless</li>
@@ -15,6 +15,10 @@
 			<li>Outland_HairColor_DarkRed</li>
 			<li>Outland_FaceTendrils</li>
 			<li>Outland_Eye_Orange</li>
+			<li>Aggression_Aggressive</li>
+			<li>Pain_Reduced</li>
+			<li>Outland_RidgedSkin</li>
+			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
 		</genes>
 	</XenotypeDef>
 	
