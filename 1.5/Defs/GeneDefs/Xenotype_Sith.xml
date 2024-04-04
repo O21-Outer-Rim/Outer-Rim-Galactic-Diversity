@@ -13,11 +13,13 @@
 			<li>Hair_Grayless</li>
 			<li>Skin_DeepRed</li>
 			<li>Outland_HairColor_DarkRed</li>
+			<li>Outland_HairColor_BrightRed</li>
 			<li>Outland_FaceTendrils</li>
 			<li>Outland_Eye_Orange</li>
 			<li>Aggression_Aggressive</li>
 			<li>Pain_Reduced</li>
 			<li>Outland_RidgedSkin</li>
+			<li>Beard_NoBeardOnly</li>
 			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
 		</genes>
 	</XenotypeDef>

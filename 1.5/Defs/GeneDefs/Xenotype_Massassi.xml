@@ -21,6 +21,7 @@
 			<li>Aggression_HyperAggressive</li>
 			<li>Robust</li>
 			<li>Pain_Reduced</li>
+			<li>Beard_NoBeardOnly</li>
 			<li>Outland_RidgedSkin</li>
 			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
 		</genes>

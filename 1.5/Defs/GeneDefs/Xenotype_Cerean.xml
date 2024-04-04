@@ -12,7 +12,6 @@
 		<combatPowerFactor>1.0</combatPowerFactor>
 		<inheritable>true</inheritable>
 		<genes>
-			<li>Beard_NoBeardOnly</li>
 			<li>OuterRim_CereanHead</li>
 		</genes>
 	</XenotypeDef>
