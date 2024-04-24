@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Kaleesh</defName>
+		<label>kaleesh</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Kaleesh</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Beard_NoBeardOnly</li>
+			<li>Outland_EyeVisual_Recessed</li>
+			<li>Outland_Nose_NoseSlits</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_DeepRed</li>
+			<li>Outland_Ears_Akhkharu</li>
+			<li>Outland_Eye_Yellow</li>
+			<li>Outland_ScaleSkin</li>
+			<li>Outland_ChinHorns</li>
+			<li>Outland_JawTusks</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Kaleesh</defName>
+		<label>kaleesh</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Kaleesh>999</OuterRim_Kaleesh>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_KaleeshTribal</defName>
+		<label>tribal kaleesh</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Kaleesh>999</OuterRim_Kaleesh>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>
