@@ -35,31 +35,25 @@
 			<OuterRim_Arkanian>0.1</OuterRim_Arkanian>
 			<OuterRim_Bothan>0.1</OuterRim_Bothan>
 			<OuterRim_Cathar>0.1</OuterRim_Cathar>
-			<!-- <OuterRim_ChadraFan>0.1</OuterRim_ChadraFan> -->
 			<OuterRim_Dathomirian>0.1</OuterRim_Dathomirian>
 			<OuterRim_Devaronian>0.1</OuterRim_Devaronian>
-			<!-- <OuterRim_Echani>0.1</OuterRim_Echani> -->
 			<OuterRim_Ewok>0.1</OuterRim_Ewok>
-			<!-- <OuterRim_Feeorin>0.1</OuterRim_Feeorin> -->
 			<OuterRim_ForceGremlin>0.001</OuterRim_ForceGremlin>
 			<OuterRim_Geonosian>0.1</OuterRim_Geonosian>
-			<!-- <OuterRim_IshiTib>0.1</OuterRim_IshiTib> -->
 			<OuterRim_Kaminoan>0.1</OuterRim_Kaminoan>
 			<OuterRim_Massassi>0.1</OuterRim_Massassi>
 			<OuterRim_Rakata>0.1</OuterRim_Rakata>
-			<!-- <OuterRim_Rodian>0.1</OuterRim_Rodian> -->
 			<OuterRim_Sith>0.1</OuterRim_Sith>
 			<OuterRim_Sullustan>0.1</OuterRim_Sullustan>
-			<!-- <OuterRim_Thyrsian>0.1</OuterRim_Thyrsian> -->
 			<OuterRim_Zeltron>0.1</OuterRim_Zeltron>
-			<!-- Humans -->
-			<!-- <OuterRim_Alderaanian>0.1</OuterRim_Alderaanian>
-			<OuterRim_Chandrilan>0.1</OuterRim_Chandrilan>
-			<OuterRim_Corellian>0.1</OuterRim_Corellian>
-			<OuterRim_Coruscanti>0.1</OuterRim_Coruscanti>
-			<OuterRim_Lothalite>0.1</OuterRim_Lothalite>
-			<OuterRim_Mandalorian>0.1</OuterRim_Mandalorian>
-			<OuterRim_Naboo>0.1</OuterRim_Naboo> -->
+			<!-- Batch Three -->
+			<OuterRim_Kaleesh>0.1</OuterRim_Kaleesh>
+			<OuterRim_Rodian>0.1</OuterRim_Rodian>
+			<!-- <OuterRim_ChadraFan>0.1</OuterRim_ChadraFan> -->
+			<!-- <OuterRim_Echani>0.1</OuterRim_Echani> -->
+			<!-- <OuterRim_Feeorin>0.1</OuterRim_Feeorin> -->
+			<!-- <OuterRim_IshiTib>0.1</OuterRim_IshiTib> -->
+			<!-- <OuterRim_Thyrsian>0.1</OuterRim_Thyrsian> -->
 		</value>
 	</Operation>
 

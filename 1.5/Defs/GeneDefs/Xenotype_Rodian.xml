@@ -6,10 +6,24 @@
 	<XenotypeDef ParentName="OuterRimXenoBase">
 		<defName>OuterRim_Rodian</defName>
 		<label>rodian</label>
-		<description>TODO</description>
-		<descriptionShort>TODO</descriptionShort>
+		<description>Rodians are a reptillian species from the planet Rodia, their large eyes capable of seeing in the infrared spectrum combined with using their antennae to detect vibrations makes them particularly capable in the dark.</description>
+		<descriptionShort>Rodians are a reptillian species from the planet Rodia, their large eyes capable of seeing in the infrared spectrum combined with using their antennae to detect vibrations makes them particularly capable in the dark.</descriptionShort>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_Rodian</iconPath>
 		<genes>
+			<li>Outland_DistinctCheekbones</li>
+			<li>Outland_LongMouth</li>
+			<li>Skin_DeepRed</li>
+			<li>Skin_Green</li>
+			<li>Outland_Skin_Sage</li>
+			<li>Outland_Skin_DeepViridian</li>
+			<li>Outland_Skin_DeepBlue</li>
+			<li>Outland_Ears_Curved</li>
+			<li>Outland_Antenna_Fluted</li>
+			<li>Outland_CompositeEyes</li>
+			<li>Outland_ScaleSkin</li>
+			<li>DarkVision</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Hair_BaldOnly</li>
 		</genes>
 	</XenotypeDef>
 	

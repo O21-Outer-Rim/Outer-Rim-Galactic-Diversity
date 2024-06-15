@@ -157,6 +157,7 @@
 				<texPath>OuterRim/Genes/Headbone/Montrals</texPath>
 				<colorType>Hair</colorType>
 				<parentTagDef>Head</parentTagDef>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
 				<drawData>
 					<defaultData>
 						<layer>80</layer>

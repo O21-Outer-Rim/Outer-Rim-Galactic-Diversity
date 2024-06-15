@@ -12,6 +12,12 @@
 		<requiredGene>OuterRim_CereanHead</requiredGene>
 		<styleTags>
 			<li>Cerean</li>
+			<li>Shaved</li>
+			<li>Urban</li>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Soldier</li>
 		</styleTags>
 	</HairDef>
 

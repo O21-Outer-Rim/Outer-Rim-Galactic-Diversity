@@ -58,7 +58,7 @@
 				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
 				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
 				<texPath>OuterRim/Genes/Ears/Gungan</texPath>
-				<color>(255, 255, 255)</color>
+				<colorType>Skin</colorType>
 				<parentTagDef>Head</parentTagDef>
 				<drawData>
 					<defaultData>

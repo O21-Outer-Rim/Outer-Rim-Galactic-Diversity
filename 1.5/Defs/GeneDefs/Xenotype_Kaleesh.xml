@@ -6,8 +6,8 @@
 	<XenotypeDef>
 		<defName>OuterRim_Kaleesh</defName>
 		<label>kaleesh</label>
-		<description>TODO</description>
-		<descriptionShort>TODO</descriptionShort>
+		<description>Kaleesh are a reptillian species from the planet Kelee, typically known to be formidable warriors, frequently found wearing masks crafted from the skulls of beasts from their homeworld.</description>
+		<descriptionShort>Kaleesh are a reptillian species from the planet Kelee, typically known to be formidable warriors, frequently found wearing masks crafted from the skulls of beasts from their homeworld.</descriptionShort>
 		<iconPath>OuterRim/XenotypeIcons/Xenotype_Kaleesh</iconPath>
 		<combatPowerFactor>1.0</combatPowerFactor>
 		<inheritable>true</inheritable>
