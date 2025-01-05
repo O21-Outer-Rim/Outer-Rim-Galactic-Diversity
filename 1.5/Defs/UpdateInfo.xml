@@ -12,7 +12,6 @@
 - Echani
 - Feeorin
 - Ishi Tib
-- Rodian
 - Thyrsian</text>
 				<image>OuterRim/UpdateImages/NewRaces</image>
 			</li>
@@ -47,6 +46,42 @@ These, if enabled, will also be added to appropriate factions, Mandalorians bein
 			</li>
 		</links>
 	</TabulaRasa.UpdateDef> -->
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_10052024</defName>
+		<date>2024/05/10</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Kaleesh
+- Rodian</text>
+			</li>
+			<li>
+				<header>Fixes</header>
+				<text>- Togruta Montrals now properly use the masking instead of being a solid colour.
+- Gungan ears now correctly use skin colour instead of being pure white.
+- Cereans should now use their hairs properly, there were cases where they'd always be bald.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
 
 	<TabulaRasa.UpdateDef>
 		<defName>OuterRim_Diversity_04042024</defName>
