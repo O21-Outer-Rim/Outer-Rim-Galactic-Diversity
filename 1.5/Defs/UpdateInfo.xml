@@ -48,8 +48,41 @@ These, if enabled, will also be added to appropriate factions, Mandalorians bein
 	</TabulaRasa.UpdateDef> -->
 
 	<TabulaRasa.UpdateDef>
-		<defName>OuterRim_Diversity_05012025</defName>
-		<date>2024/01/05</date>
+		<defName>OuterRim_Diversity_23012025</defName>
+		<date>2025/01/23</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Chagrian</text>
+			</li>
+			<li>
+				<header>Fixes</header>
+				<text>- Togruta Montrals now require the pawn be bald, for consistency sake.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_10012025</defName>
+		<date>2025/01/10</date>
 		<banner>UpdateInfo/O21OuterRim</banner>
 		<contentList>
 			<li>

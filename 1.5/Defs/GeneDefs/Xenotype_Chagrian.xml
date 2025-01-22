@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Chagrian</defName>
+		<label>Chagrian</label>
+		<description>Chagrians are a sentian amphibious species of humanoids from the planet Champala. They are most notable for their blueish skin and thick sensory tentacles that grow either side of their head coming forward to rest on their chest and inner shoulders. Males differ from the females of the species in that they have large horns growing from their skull too.</description>
+		<descriptionShort>Chagrians are a sentian amphibious species of humanoids from the planet Champala.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Chagrian</iconPath>
+		<genes>
+			<li>OuterRim_ChagrianHorns</li>
+			<li>Skin_Blue</li>
+			<li>Outland_Skin_DeepAzure</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Hair_BaldOnly</li>
+			<li>Outland_Blood_Green</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Chagrian</defName>
+		<label>Chagrian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Chagrian>999</OuterRim_Chagrian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_ChagrianTribal</defName>
+		<label>tribal Chagrian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Chagrian>999</OuterRim_Chagrian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadboneHornBase">
+		<defName>OuterRim_ChagrianHorns</defName>
+		<label>horns (Chagrian)</label>
+		<description>Carriers of this gene grow two large tentacles either side of their head with horns protruding from the ends resting on the chest and inner shoulders. Males having a set of upright horns from their skulls.</description>
+		<iconPath>OuterRim/Genes/Headbone/Chagrian</iconPath>
+		<displayOrderInCategory>9501</displayOrderInCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>OuterRim/Genes/Headbone/Chagrian0</li>
+					<li>OuterRim/Genes/Headbone/Chagrian1</li>
+				</texPaths>
+				<texPathFemale>OuterRim/Genes/Headbone/ChagrianF</texPathFemale>
+				<colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<drawData>
+					<defaultData>
+						<layer>80</layer>
+					</defaultData>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<prerequisite>Hair_BaldOnly</prerequisite>
+	</GeneDef>
+
+</Defs>

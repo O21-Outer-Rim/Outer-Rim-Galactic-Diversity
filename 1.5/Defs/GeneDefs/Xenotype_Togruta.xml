@@ -165,6 +165,7 @@
 				</drawData>
 			</li>
 		</renderNodeProperties>
+		<prerequisite>Hair_BaldOnly</prerequisite>
 	</GeneDef>
 	
 </Defs>
