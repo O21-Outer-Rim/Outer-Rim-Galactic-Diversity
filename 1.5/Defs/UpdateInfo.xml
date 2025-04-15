@@ -48,8 +48,8 @@ These, if enabled, will also be added to appropriate factions, Mandalorians bein
 	</TabulaRasa.UpdateDef> -->
 
 	<TabulaRasa.UpdateDef>
-		<defName>OuterRim_Diversity_23012025</defName>
-		<date>2025/01/23</date>
+		<defName>OuterRim_Diversity_1542025</defName>
+		<date>2025/04/15</date>
 		<banner>UpdateInfo/O21OuterRim</banner>
 		<contentList>
 			<li>
@@ -58,7 +58,8 @@ These, if enabled, will also be added to appropriate factions, Mandalorians bein
 			</li>
 			<li>
 				<header>Fixes</header>
-				<text>- Togruta Montrals now require the no hair gene, for consistency sake.</text>
+				<text>- Togruta Montrals now require the no hair gene. (The Togruta Xenotype also now has it)
+- Vestigial body parts marked as non-bad explicitly. (Contribution by sumghai)</text>
 			</li>
 		</contentList>
 		<links>
