@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- =========================== Simple Helmet =========================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="Apparel_SimpleHelmet"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_SimpleHelmet"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]/apparelAlts</xpath>
+					<value>
+						<li>
+							<headTypeDef>
+								<li>OuterRim_Twilek_MaleNormal</li>
+								<li>OuterRim_Twilek_FemaleNormal</li>
+								<li>OuterRim_Twilek_MaleStriped</li>
+								<li>OuterRim_Twilek_FemaleStriped</li>
+							</headTypeDef>
+							<path>Things/Pawn/Humanlike/Apparel/Twilek/SimpleHelmet/SimpleHelmet</path>
+						</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="Apparel_SimpleHelmet"]</xpath>
+					<value>
+						<li Class="TabulaRasa.DefModExt_ApparelAlts" Inherit="False">
+							<apparelAlts>
+								<li>
+									<headTypeDef>
+										<li>OuterRim_Twilek_MaleNormal</li>
+										<li>OuterRim_Twilek_FemaleNormal</li>
+										<li>OuterRim_Twilek_MaleStriped</li>
+										<li>OuterRim_Twilek_FemaleStriped</li>
+									</headTypeDef>
+									<path>Things/Pawn/Humanlike/Apparel/Twilek/SimpleHelmet/SimpleHelmet</path>
+								</li>
+							</apparelAlts>
+						</li>
+					</value>
+				</nomatch>
+			</li>
+			<!-- =========================== Flak Helmet =========================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="Apparel_AdvancedHelmet"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_AdvancedHelmet"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]/apparelAlts</xpath>
+					<value>
+						<li>
+							<headTypeDef>
+								<li>OuterRim_LekkuMale</li>
+								<li>OuterRim_LekkuFemale</li>
+							</headTypeDef>
+							<path>Things/Pawn/Humanlike/Apparel/Twilek/AdvancedHelmet/AdvancedHelmet</path>
+						</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="Apparel_AdvancedHelmet"]</xpath>
+					<value>
+						<li Class="TabulaRasa.DefModExt_ApparelAlts" Inherit="False">
+							<apparelAlts>
+								<li>
+									<headTypeDef>
+										<li>OuterRim_Twilek_MaleNormal</li>
+										<li>OuterRim_Twilek_FemaleNormal</li>
+										<li>OuterRim_Twilek_MaleStriped</li>
+										<li>OuterRim_Twilek_FemaleStriped</li>
+									</headTypeDef>
+									<path>Things/Pawn/Humanlike/Apparel/Twilek/AdvancedHelmet/AdvancedHelmet</path>
+								</li>
+							</apparelAlts>
+						</li>
+					</value>
+				</nomatch>
+			</li>
+			<!-- =========================== Power Armor Helmet =========================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="Apparel_PowerArmorHelmet"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_PowerArmorHelmet"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]/apparelAlts</xpath>
+					<value>
+						<li>
+							<headTypeDef>
+								<li>OuterRim_LekkuMale</li>
+								<li>OuterRim_LekkuFemale</li>
+							</headTypeDef>
+							<path>Things/Pawn/Humanlike/Apparel/Twilek/PowerArmorHelmet/PowerArmorHelmet</path>
+						</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="Apparel_PowerArmorHelmet"]</xpath>
+					<value>
+						<li Class="TabulaRasa.DefModExt_ApparelAlts" Inherit="False">
+							<apparelAlts>
+								<li>
+									<headTypeDef>
+										<li>OuterRim_Twilek_MaleNormal</li>
+										<li>OuterRim_Twilek_FemaleNormal</li>
+										<li>OuterRim_Twilek_MaleStriped</li>
+										<li>OuterRim_Twilek_FemaleStriped</li>
+									</headTypeDef>
+									<path>Things/Pawn/Humanlike/Apparel/Twilek/PowerArmorHelmet/PowerArmorHelmet</path>
+								</li>
+							</apparelAlts>
+						</li>
+					</value>
+				</nomatch>
+			</li>
+			<!-- =========================== Recon Armor Helmet =========================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="Apparel_ArmorHelmetRecon"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_ArmorHelmetRecon"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]/apparelAlts</xpath>
+					<value>
+						<li>
+							<headTypeDef>
+								<li>OuterRim_LekkuMale</li>
+								<li>OuterRim_LekkuFemale</li>
+							</headTypeDef>
+							<path>Things/Pawn/Humanlike/Apparel/Twilek/ReconHelmet/ReconHelmet</path>
+						</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="Apparel_ArmorHelmetRecon"]</xpath>
+					<value>
+						<li Class="TabulaRasa.DefModExt_ApparelAlts" Inherit="False">
+							<apparelAlts>
+								<li>
+									<headTypeDef>
+										<li>OuterRim_Twilek_MaleNormal</li>
+										<li>OuterRim_Twilek_FemaleNormal</li>
+										<li>OuterRim_Twilek_MaleStriped</li>
+										<li>OuterRim_Twilek_FemaleStriped</li>
+									</headTypeDef>
+									<path>Things/Pawn/Humanlike/Apparel/Twilek/ReconHelmet/ReconHelmet</path>
+								</li>
+							</apparelAlts>
+						</li>
+					</value>
+				</nomatch>
+			</li>
+			<!-- =========================== Hood =========================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="Apparel_HatHood"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_HatHood"]/modExtensions/li[@Class="TabulaRasa.DefModExt_ApparelAlts"]/apparelAlts</xpath>
+					<value>
+						<li>
+							<headTypeDef>
+								<li>OuterRim_LekkuMale</li>
+								<li>OuterRim_LekkuFemale</li>
+							</headTypeDef>
+							<path>Things/Pawn/Humanlike/Apparel/Twilek/Hood/Hood</path>
+						</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="Apparel_HatHood"]</xpath>
+					<value>
+						<li Class="TabulaRasa.DefModExt_ApparelAlts" Inherit="False">
+							<apparelAlts>
+								<li>
+									<headTypeDef>
+										<li>OuterRim_Twilek_MaleNormal</li>
+										<li>OuterRim_Twilek_FemaleNormal</li>
+										<li>OuterRim_Twilek_MaleStriped</li>
+										<li>OuterRim_Twilek_FemaleStriped</li>
+									</headTypeDef>
+									<path>Things/Pawn/Humanlike/Apparel/Twilek/Hood/Hood</path>
+								</li>
+							</apparelAlts>
+						</li>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

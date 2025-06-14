@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Bith</defName>
+		<label>bith</label>
+		<description>The Bith are a peaceful and intelligent sentient species native to the planet Bith. They have large hairless, domed heads, glassy black eyes and lack eyelids. Bith are often found working as musicians, scientists and engineers. They have very sensitive hearing, being able to separate and isolate sounds around them.</description>
+		<descriptionShort>The Bith are a peaceful and intelligent sentient species native to the planet Bith.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Bith</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Body_Thin</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Skin_Melanin3</li>
+			<li>OuterRim_BithHead</li>
+			<li>Immunity_Weak</li>
+			<li>AptitudeStrong_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Bith</defName>
+		<label>bith</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Bith>999</OuterRim_Bith>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_BithTribal</defName>
+		<label>tribal bith</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Bith>999</OuterRim_Bith>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_BithHead</defName>
+		<label>bith head</label>
+		<description>Carriers of this gene have the Bith racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_BithHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Bith_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>bith</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Bith_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Bith/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_BithHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Massassi</defName>
+		<label>massassi</label>
+		<description>Massassi are a subspecies of the Sith race, a similar appearance of distinctive red ridged skin, with facial tendrils. However the similarities stop there, they are much larger, hulking forms, making them formidible warriors. They are known for having been responsible for many temples across the galaxy..</description>
+		<descriptionShort>Massassi are a subspecies of the Sith race, a similar appearance of distinctive red ridged skin, with facial tendrils. However the similarities stop there, they are much larger, hulking forms, making them formidible warriors.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
+		<genes>
+			<li>Skin_DeepRed</li>
+			<li>Outland_FaceTendrils</li>
+			<li>Body_Hulk</li>
+			<li>Outland_Eye_Orange</li>
+			<li>Outland_BodyScale_Large</li>
+			<li>Hair_BaldOnly</li>
+			<li>AptitudeTerrible_Intellectual</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Outland_RidgedSkin</li>
+			<li MayRequire="Neronix17.OuterRim.HokeyReligions">OuterRim_ForceAdept</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Massassi</defName>
+		<label>massassi</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Massassi>999</OuterRim_Massassi>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_MassassiTribal</defName>
+		<label>tribal massassi</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Massassi>999</OuterRim_Massassi>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

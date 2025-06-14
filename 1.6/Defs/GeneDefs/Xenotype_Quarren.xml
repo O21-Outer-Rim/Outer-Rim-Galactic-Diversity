@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Quarren</defName>
+		<label>quarren</label>
+		<description>Quarren are a humanoid aquatic species from the planet Mon Cala, which they share with the Mon Calamari species. They are easily distinguished by their squid-like appearance.</description>
+		<descriptionShort>Quarren are a humanoid aquatic species from the planet Mon Cala, which they share with the Mon Calamari species.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Quarren</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Melanin3</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_QuarrenHead</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Quarren</defName>
+		<label>quarren</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Quarren>999</OuterRim_Quarren>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_QuarrenTribal</defName>
+		<label>tribal quarren</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Quarren>999</OuterRim_Quarren>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_QuarrenHead</defName>
+		<label>quarren head</label>
+		<description>Carriers of this gene have the Quarren racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_QuarrenHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Quarren_Normal</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>quarren</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Quarren_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Quarren/Normal</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_QuarrenHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+	
+</Defs>

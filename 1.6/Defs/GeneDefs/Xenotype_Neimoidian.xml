@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Neimoidian</defName>
+		<label>neimoidian</label>
+		<description>Neimoidians are a humanoid species from the planet Neimoidia, known for their expansive wealth among their colonies. They have smooth noseless faces with mottled green skin tones and large orange eyes.</description>
+		<descriptionShort>Neimoidians are a humanoid species from the planet Neimoidia.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Neimoidian</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Green</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>OuterRim_DurosHead</li>
+			<li>Outland_Blood_Green</li>
+			<li>Outland_Eye_Orange</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Neimoidian</defName>
+		<label>neimoidian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Neimoidian>999</OuterRim_Neimoidian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_NeimoidianTribal</defName>
+		<label>tribal neimoidian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Neimoidian>999</OuterRim_Neimoidian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

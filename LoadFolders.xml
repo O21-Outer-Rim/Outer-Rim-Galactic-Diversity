@@ -11,4 +11,9 @@
 		<li>1.5</li>
 		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.5/Mods/ChissXenotype</li>
 	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.6/Mods/ChissXenotype</li>
+	</v1.6>
 </loadFolders>

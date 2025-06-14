@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- <TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_01122023</defName>
+		<date>2023/12/01</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Chadra-Fan
+- Echani
+- Feeorin
+- Ishi Tib
+- Thyrsian</text>
+				<image>OuterRim/UpdateImages/NewRaces</image>
+			</li>
+			<li>
+				<header>Human-ish Xenotypes</header>
+				<text>Cultures can breed strengths and weaknesses, especially on a planetary scale. Now you can choose to enable a setting for this mod that adds a bunch of xenotypes that are human but with different pros and cons based on the world they're from, sometimes varying very slightly in appearance. For Example:
+- Alderaanian - Calm and artistic, but weak when it comes to shooting and melee.
+- Corellian - Hard working, but impulsive, acting out when they aren't happy.
+- Coruscanti - Politically capable, strong with social but weak with combat.
+- Lothalite - Industrious people, typically having a coppery shade of skin.
+- Mandalorian - Strong combat aptitudes, but weak social. Typically bright haired.
+- Naboo - Known for their fashion (somehow), they have improved artistic abilities but weaker plant work and ranching ability.
+These, if enabled, will also be added to appropriate factions, Mandalorians being a fairly obvious one that'll do so.</text>
+				<image>OuterRim/UpdateImages/PlanetaryHumans</image>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef> -->
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_1542025</defName>
+		<date>2025/04/15</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Chagrian</text>
+			</li>
+			<li>
+				<header>Fixes</header>
+				<text>- Togruta Montrals now require the no hair gene. (The Togruta Xenotype also now has it)
+- Vestigial body parts marked as non-bad explicitly. (Contribution by sumghai)</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_10012025</defName>
+		<date>2025/01/10</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Kaleesh
+- Rodian</text>
+			</li>
+			<li>
+				<header>Fixes</header>
+				<text>- Togruta Montrals now properly use the masking instead of being a solid colour.
+- Gungan ears now correctly use skin colour instead of being pure white.
+- Cereans should now use their hairs properly, there were cases where they'd always be bald.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Diversity_04042024</defName>
+		<date>2024/04/04</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>1.5 Dependency Change</header>
+				<text>Outland - Genetics (link at the top) is now a dependency for this going forward. I tried the standalone route with it being optional and just copying over genes as needed but that quickly became way too much work to deal with. Was either this or I stopped adding xenotypes at all and I have a lot of them still to do.</text>
+			</li>
+			<li>
+				<header>Added Xenotypes</header>
+				<text>- Arkanian
+- Bothan
+- Cathar
+- Dathomirian
+- Devaronian
+- Ewok
+- Force Goblin
+- Geonosian
+- Kaminoan
+- Massassi
+- Rakata
+- Sith
+- Sullustan
+- Zeltron</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland - Genetics</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

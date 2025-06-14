@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<!-- Batch One-->
+			<OuterRim_Abednedo>0.1</OuterRim_Abednedo>
+			<OuterRim_Aqualish>0.1</OuterRim_Aqualish>
+			<OuterRim_Bith>0.1</OuterRim_Bith>
+			<OuterRim_Cerean>0.1</OuterRim_Cerean>
+			<OuterRim_Chagrian>0.1</OuterRim_Chagrian>
+			<OuterRim_Duros>0.1</OuterRim_Duros>
+			<OuterRim_Gungan>0.05</OuterRim_Gungan>
+			<OuterRim_Herglic>0.01</OuterRim_Herglic>
+			<OuterRim_Iktotchi>0.1</OuterRim_Iktotchi>
+			<OuterRim_Iridonian>0.1</OuterRim_Iridonian>
+			<OuterRim_Ithorian>0.1</OuterRim_Ithorian>
+			<OuterRim_Miraluka>0.05</OuterRim_Miraluka>
+			<OuterRim_Mirialan>0.1</OuterRim_Mirialan>
+			<OuterRim_MonCalamari>0.1</OuterRim_MonCalamari>
+			<OuterRim_Neimoidian>0.1</OuterRim_Neimoidian>
+			<OuterRim_Nikto>0.1</OuterRim_Nikto>
+			<OuterRim_Pantoran>0.1</OuterRim_Pantoran>
+			<OuterRim_Pyke>0.1</OuterRim_Pyke>
+			<OuterRim_Quarren>0.1</OuterRim_Quarren>
+			<OuterRim_Selkath>0.1</OuterRim_Selkath>
+			<OuterRim_Togruta>0.1</OuterRim_Togruta>
+			<OuterRim_Trandoshan>0.1</OuterRim_Trandoshan>
+			<OuterRim_Twilek>0.15</OuterRim_Twilek>
+			<OuterRim_Umbaran>0.1</OuterRim_Umbaran>
+			<OuterRim_Wookiee>0.1</OuterRim_Wookiee>
+			<OuterRim_Jawa>0.05</OuterRim_Jawa>
+			<OuterRim_Tusken>0.01</OuterRim_Tusken>
+			<!-- Batch Two -->
+			<OuterRim_Arkanian>0.1</OuterRim_Arkanian>
+			<OuterRim_Bothan>0.1</OuterRim_Bothan>
+			<OuterRim_Cathar>0.1</OuterRim_Cathar>
+			<OuterRim_Dathomirian>0.1</OuterRim_Dathomirian>
+			<OuterRim_Devaronian>0.1</OuterRim_Devaronian>
+			<OuterRim_Ewok>0.1</OuterRim_Ewok>
+			<OuterRim_ForceGremlin>0.001</OuterRim_ForceGremlin>
+			<OuterRim_Geonosian>0.1</OuterRim_Geonosian>
+			<OuterRim_Kaminoan>0.1</OuterRim_Kaminoan>
+			<OuterRim_Massassi>0.1</OuterRim_Massassi>
+			<OuterRim_Rakata>0.1</OuterRim_Rakata>
+			<OuterRim_Sith>0.1</OuterRim_Sith>
+			<OuterRim_Sullustan>0.1</OuterRim_Sullustan>
+			<OuterRim_Zeltron>0.1</OuterRim_Zeltron>
+			<!-- Batch Three -->
+			<OuterRim_Kaleesh>0.1</OuterRim_Kaleesh>
+			<OuterRim_Rodian>0.1</OuterRim_Rodian>
+			<!-- <OuterRim_ChadraFan>0.1</OuterRim_ChadraFan> -->
+			<!-- <OuterRim_Echani>0.1</OuterRim_Echani> -->
+			<!-- <OuterRim_Feeorin>0.1</OuterRim_Feeorin> -->
+			<!-- <OuterRim_IshiTib>0.1</OuterRim_IshiTib> -->
+			<!-- <OuterRim_Thyrsian>0.1</OuterRim_Thyrsian> -->
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>OuterRim_ChissNameGenerator</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2][Chiss3] '[Chiss4]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7][Chiss8]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss9]' [Chiss10][Chiss11][Chiss12][Chiss13]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13][Chiss14]</li>
+				<li>name->[Chiss1][Chiss2] '[Chiss3]&apos;[Chiss5][Chiss6][Chiss7]&apos;[Chiss10]' [Chiss11][Chiss12][Chiss13]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Chiss1</keyword>
+					<path>OuterRim/Chiss/ChissNameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss2</keyword>
+					<path>OuterRim/Chiss/ChissNameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss3</keyword>
+					<path>OuterRim/Chiss/ChissNameparts3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss4</keyword> <!-- Has Blanks -->
+					<path>OuterRim/Chiss/ChissNameparts4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss5</keyword>
+					<path>OuterRim/Chiss/ChissNameparts5</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss6</keyword>
+					<path>OuterRim/Chiss/ChissNameparts6</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss7</keyword>
+					<path>OuterRim/Chiss/ChissNameparts7</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss8</keyword> <!-- Has Blanks -->
+					<path>OuterRim/Chiss/ChissNameparts8</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss9</keyword> <!-- Has Blanks -->
+					<path>OuterRim/Chiss/ChissNameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss10</keyword>
+					<path>OuterRim/Chiss/ChissNameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss11</keyword>
+					<path>OuterRim/Chiss/ChissNameparts11</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss12</keyword>
+					<path>OuterRim/Chiss/ChissNameparts12</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss13</keyword>
+					<path>OuterRim/Chiss/ChissNameparts13</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Chiss14</keyword> <!-- Has Blanks -->
+					<path>OuterRim/Chiss/ChissNameparts14</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

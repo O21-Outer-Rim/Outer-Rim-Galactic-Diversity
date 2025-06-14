@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_Feeorin</defName>
+		<label>feeorin</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Feeorin</iconPath>
+		<genes>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Feeorin</defName>
+		<label>feeorin</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Feeorin>999</OuterRim_Feeorin>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_FeeorinTribal</defName>
+		<label>tribal feeorin</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Feeorin>999</OuterRim_Feeorin>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

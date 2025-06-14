@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Placeholder</defName>
+		<label>placeholder</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Placeholder</iconPath>
+		<genes>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Placeholder</defName>
+		<label>placeholder</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Placeholder>999</OuterRim_Placeholder>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_PlaceholderTribal</defName>
+		<label>tribal placeholder</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Placeholder>999</OuterRim_Placeholder>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef>
+		<defName>OuterRim_Herglic</defName>
+		<label>herglic</label>
+		<description>Herglics are a hulking species with black skin, a wide mouth and oily eyes. They are a rare sight in the galaxy and can hit like a wrecking ball. Their thick skin allows them to shake off most blunt attacks.</description>
+		<descriptionShort>Herglics are a hulking species with black skin, a wide mouth and oily eyes. They are a rare sight in the galaxy and can hit like a wrecking ball.</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_Herglic</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Body_Hulk</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Skin_InkBlack</li>
+			<li>Skin_SlateGray</li>
+			<li>OuterRim_HerglicHead</li>
+			<li>Outland_ThickSkin</li>
+			<li>Outland_BodyScale_Large</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_Herglic</defName>
+		<label>herglic</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Herglic>999</OuterRim_Herglic>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_HerglicTribal</defName>
+		<label>tribal herglic</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_Herglic>999</OuterRim_Herglic>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+
+	<GeneDef ParentName="OuterRim_GeneHeadBase">
+		<defName>OuterRim_HerglicHead</defName>
+		<label>herglic head</label>
+		<description>Carriers of this gene have the Herglic racial head type.</description>
+		<iconPath>OuterRim/GeneIcons/Gene_HerglicHead</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<forcedHeadTypes>
+			<li>OuterRim_Herglic</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>9100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>herglic</symbol>
+				</li>
+			</wholeNameSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>OuterRim_Herglic</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Herglic/Herglic</graphicPath>
+		<gender>None</gender>
+		<requiredGenes>
+			<li>OuterRim_HerglicHead</li>
+		</requiredGenes>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

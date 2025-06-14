@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- ============================== Xenotype ============================== -->
+
+	<XenotypeDef ParentName="OuterRimXenoBase">
+		<defName>OuterRim_ChadraFan</defName>
+		<label>chadra-fan</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>OuterRim/XenotypeIcons/Xenotype_ChadraFan</iconPath>
+		<genes>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="OuterRimTestColonyPawnKind">
+		<defName>OuterRim_ChadraFan</defName>
+		<label>chadra-fan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_ChadraFan>999</OuterRim_ChadraFan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="OuterRimTestTribalPawnKind">
+		<defName>OuterRim_ChadraFanTribal</defName>
+		<label>tribal chadra-fan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<OuterRim_ChadraFan>999</OuterRim_ChadraFan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<!-- ============================== Genes ============================== -->
+	
+</Defs>
