@@ -26,19 +26,12 @@ namespace OuterRimDiversity
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            LogUtil.LogMessage($"{CurrentVersion} ::");
+            Log.Message($":: Outer Rim - Galactic Diversity ::".Colorize(Color.cyan) + $"{CurrentVersion} ::");
 
             File.WriteAllText(VersionDir, CurrentVersion);
 
             Harmony harmony = new Harmony("Neronix17.OuterRimDiversity.RimWorld");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
-
-        //public override string SettingsCategory() => "Outer Rim - Galactic Diversity";
-
-        //public override void DoSettingsWindowContents(Rect inRect)
-        //{
-        //    base.DoSettingsWindowContents(inRect);
-        //}
     }
 }

@@ -73,7 +73,7 @@
 	<GeneDef ParentName="OuterRim_GeneHeadboneHornBase">
 		<defName>OuterRim_ZabrakHornsMale</defName>
 		<label>zabrak horns (male only)</label>
-		<geneClass>VanillaGenesExpanded.GeneGendered</geneClass>
+		<geneClass>VEF.Genes.GeneGendered</geneClass>
 		<description>Carriers of this gene grow man small horns on their head.\n\nOnly affects male pawns.</description>
 		<iconPath>OuterRim/GeneIcons/Gene_ZabrakHorns</iconPath>
 		<displayOrderInCategory>9500</displayOrderInCategory>
@@ -98,7 +98,7 @@
 			</li>
 		</renderNodeProperties>
 		<modExtensions Inherit="False">
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 				<forGenderOnly>Male</forGenderOnly>
@@ -110,7 +110,7 @@
 		<defName>OuterRim_MaleOrangeSkin</defName>
 		<label>orange skin (male only)</label>
 		<labelShortAdj>orange</labelShortAdj>
-		<geneClass>VanillaGenesExpanded.GeneGendered</geneClass>
+		<geneClass>VEF.Genes.GeneGendered</geneClass>
 		<description>Carriers of this gene produce a orange pigment.\n\nOnly affects male pawns.</description>
 		<skinColorOverride>(191, 129, 67)</skinColorOverride>
 		<displayOrderInCategory>9500</displayOrderInCategory>
@@ -118,7 +118,7 @@
 			<li>SkinColorOverrideMale</li>
 		</exclusionTags>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 				<forGenderOnly>Male</forGenderOnly>
@@ -130,7 +130,7 @@
 		<defName>OuterRim_MaleYellowSkin</defName>
 		<label>yellow skin (male only)</label>
 		<labelShortAdj>yellow</labelShortAdj>
-		<geneClass>VanillaGenesExpanded.GeneGendered</geneClass>
+		<geneClass>VEF.Genes.GeneGendered</geneClass>
 		<description>Carriers of this gene produce a yellow pigment.\n\nOnly affects male pawns.</description>
 		<skinColorOverride>(189, 167, 72)</skinColorOverride>
 		<displayOrderInCategory>9500</displayOrderInCategory>
@@ -138,7 +138,7 @@
 			<li>SkinColorOverrideMale</li>
 		</exclusionTags>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>OuterRim/GeneIcons/EndogeneBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>OuterRim/GeneIcons/XenogeneBG</backgroundPathXenogenes>
 				<forGenderOnly>Male</forGenderOnly>

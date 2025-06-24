@@ -17,23 +17,5 @@ namespace OuterRimDiversity
         {
             base.ExposeData();
         }
-
-        public bool IsValidSetting(string input)
-        {
-            if (GetType().GetFields().Where(p => p.FieldType == typeof(bool)).Any(i => i.Name == input))
-            {
-                return true;
-            }
-
-            return false;
-        }
-
-        public IEnumerable<string> GetEnabledSettings
-        {
-            get
-            {
-                return GetType().GetFields().Where(p => p.FieldType == typeof(bool) && (bool)p.GetValue(this)).Select(p => p.Name);
-            }
-        }
     }
 }

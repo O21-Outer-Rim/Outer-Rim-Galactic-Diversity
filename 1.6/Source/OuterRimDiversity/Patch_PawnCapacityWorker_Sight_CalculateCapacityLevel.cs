@@ -17,7 +17,7 @@ namespace OuterRimDiversity
         [HarmonyPostfix]
         public static void Postfix(ref float __result, HediffSet diffSet, List<PawnCapacityUtility.CapacityImpactor> impactors = null)
         {
-            if (diffSet?.pawn?.genes?.HasGene(ORDivDefOf.OuterRim_ForceSight) ?? false && __result < 1f)
+            if (diffSet?.pawn?.genes?.HasActiveGene(ORDivDefOf.OuterRim_ForceSight) ?? false && __result < 1f)
             {
                 __result = 1f;
             }
