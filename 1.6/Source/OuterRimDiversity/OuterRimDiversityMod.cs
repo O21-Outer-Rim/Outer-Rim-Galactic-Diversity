@@ -26,7 +26,7 @@ namespace OuterRimDiversity
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            Log.Message($":: Outer Rim - Galactic Diversity ::".Colorize(Color.cyan) + $"{CurrentVersion} ::");
+            Log.Message($":: Outer Rim - Galactic Diversity :: ".Colorize(Color.cyan) + $"{CurrentVersion} ::");
 
             File.WriteAllText(VersionDir, CurrentVersion);
 

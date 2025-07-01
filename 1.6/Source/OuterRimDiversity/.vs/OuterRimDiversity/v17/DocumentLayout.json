@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Diversity\\1.6\\Source\\OuterRimDiversity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OuterRimDiversity||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFD61D1A-C128-4645-AFEC-4F6862F34267}|OuterRimDiversity.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Diversity\\1.6\\Source\\OuterRimDiversity\\outerrimdiversitymod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFD61D1A-C128-4645-AFEC-4F6862F34267}|OuterRimDiversity.csproj|solutionrelative:outerrimdiversitymod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OuterRimDiversity||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFD61D1A-C128-4645-AFEC-4F6862F34267}|OuterRimDiversity.csproj|F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Diversity\\1.6\\Source\\OuterRimDiversity\\patch_pawncapacityworker_sight_calculatecapacitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,11 +40,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OuterRimDiversity",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Diversity\\1.6\\Source\\OuterRimDiversity\\OuterRimDiversity.csproj",
               "RelativeDocumentMoniker": "OuterRimDiversity.csproj",
@@ -88,8 +88,7 @@
               "RelativeToolTip": "Patch_PawnCapacityWorker_Sight_CalculateCapacityLevel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T16:23:11.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T16:23:11.691Z"
             },
             {
               "$type": "Document",
@@ -105,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OuterRimDiversityMod.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Diversity\\1.6\\Source\\OuterRimDiversity\\OuterRimDiversityMod.cs",
               "RelativeDocumentMoniker": "OuterRimDiversityMod.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Galactic Diversity\\1.6\\Source\\OuterRimDiversity\\OuterRimDiversityMod.cs",
               "RelativeToolTip": "OuterRimDiversityMod.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T16:23:11.887Z",
               "EditorCaption": ""
