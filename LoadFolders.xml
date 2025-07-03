@@ -2,17 +2,20 @@
 <loadFolders>
 	<v1.4>
 		<li>/</li>
+		<li>Common_Old</li>
 		<li IfModNotActive="Neronix17.Outland.Genetics">1.4/Mods/NoOutlandGenetics</li>
 		<li>1.4</li>
 		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.4/Mods/ChissXenotype</li>
 	</v1.4>
 	<v1.5>
 		<li>/</li>
+		<li>Common_Old</li>
 		<li>1.5</li>
 		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.5/Mods/ChissXenotype</li>
 	</v1.5>
 	<v1.6>
 		<li>/</li>
+		<li>Common</li>
 		<li>1.6</li>
 		<li IfModNotActive="Neronix17.OuterRim.Csilla">1.6/Mods/ChissXenotype</li>
 	</v1.6>
